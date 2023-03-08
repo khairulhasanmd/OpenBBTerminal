@@ -1,6 +1,6 @@
 import pandas as pd
 from openbb_terminal.core.data.providers.provider_factory import ApiFactory
-from schemas.fundamentals_schema import CompanyProfile
+from openbb_terminal.core.data.schemas.fundamentals_schema import CompanyProfile
 from openbb_terminal.core.data.helpers import validate_df
 
 
