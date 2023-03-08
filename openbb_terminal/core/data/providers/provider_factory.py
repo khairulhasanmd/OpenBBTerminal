@@ -1,5 +1,5 @@
-from providers.polygon import PolygonProvider
-from providers.yahoo import YahooProvider
+from openbb_terminal.core.data.providers.polygon import PolygonProvider
+from openbb_terminal.core.data.providers.yahoo import YahooProvider
 
 
 class ApiFactory:

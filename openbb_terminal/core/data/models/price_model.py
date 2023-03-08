@@ -1,5 +1,5 @@
 import pandas as pd
-from provider_factory import ApiFactory
+from openbb_terminal.core.data.providers.provider_factory import ApiFactory
 from schemas.prices_schema import StockPrice, IndexPrice
 from openbb_terminal.core.data.helpers import validate_df
 
