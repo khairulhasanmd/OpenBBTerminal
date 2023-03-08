@@ -52,7 +52,7 @@ if remove_cache:
 def create_price_object(
     api_key, source, sub_category, symbol, start_date, end_date, weekly, monthly
 ):
-    temp_cache_name = f"stock_{source}_{symbol}_{start_date}_{end_date}.joblib"
+    temp_cache_name = f"price_{source}_{symbol}_{start_date}_{end_date}.joblib"
     cache_path = os.path.join(cachedir, temp_cache_name)
     if os.path.exists(cache_path):
         print("--------------------")
@@ -158,7 +158,7 @@ if __name__ == "__main__":
         print("--------------------")
         print("Creating and caching stock price data object")
         print("--------------------")
-        stockObject = create_price_object(
+        priceObject = create_price_object(
             api_key=API_KEY,
             source=requested_source,
             sub_category=category,
@@ -172,19 +172,19 @@ if __name__ == "__main__":
         # try to load cached objects and if no exception, use them
         try:
             # Load cached objects with specific names
-            cache_name = f"stock_{requested_source}_{ticker}_{s_d}_{e_d}.joblib"
-            cached_stock = joblib.load(os.path.join(cachedir, cache_name))
+            cache_name = f"price_{requested_source}_{ticker}_{s_d}_{e_d}.joblib"
+            cached_price = joblib.load(os.path.join(cachedir, cache_name))
         except FileNotFoundError:
             print("--------------------")
-            print("Cached stock object not found")
+            print("Cached price object not found")
             print("--------------------")
-            cached_stock = None
+            cached_price = None
 
         # Use cached objects
         print("--------------------")
-        print("Using loaded cached stock ticker object")
+        print("Using loaded cached price object")
         print("--------------------")
-        print(cached_stock.data_frame.head(10))
+        print(cached_price.data_frame.head(10))
 
     if fundamentals_requested:
         print("--------------------")
