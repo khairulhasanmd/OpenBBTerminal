@@ -1,6 +1,7 @@
 from pydantic import BaseModel, Field
 from typing import Optional
 from datetime import datetime
+import numpy as np
 
 
 class StockPrice(BaseModel):
@@ -10,7 +11,7 @@ class StockPrice(BaseModel):
     Open: float = Field(alias="Open")
     High: float = Field(alias="High")
     Low: float = Field(alias="Low")
-    Transactions: Optional[int] = Field(alias="Transactions")
+    Transactions: Optional[float] = Field(alias="Transactions")
     Close: float = Field(alias="Close")
     date: datetime = Field(alias="date")
 

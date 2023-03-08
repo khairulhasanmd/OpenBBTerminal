@@ -11,7 +11,6 @@ class KeyExecutives(BaseModel):
 
 class CompanyProfile(BaseModel):
     active: bool
-    address: Dict[str, str]
     cik: str
     composite_figi: str
     currency_name: str

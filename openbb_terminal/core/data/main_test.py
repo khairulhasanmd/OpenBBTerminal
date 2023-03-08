@@ -135,69 +135,74 @@ if __name__ == "__main__":
     # Set up API keys
     # -----------------------------------------------
     requested_source = "polygon"
+    stock_price_requested = True
+    fundamentals_requested = False
+
     if requested_source == "polygon":
         API_KEY = os.getenv("POLYGON_API_KEY")
     elif requested_source == "yahoo":
         API_KEY = None
 
     # user input
-    ticker = "AAPL"
+    ticker = "MSFT"
     s_d = "2023-01-01"
     e_d = "2023-01-10"
     w = False
     m = False
 
-    # Cache the objects
-    print("--------------------")
-    print("Creating and caching stock data object")
-    print("--------------------")
-    stockObject = create_stock_object(
-        api_key=API_KEY,
-        source=requested_source,
-        symbol=ticker,
-        start_date=s_d,
-        end_date=e_d,
-        weekly=w,
-        monthly=m,
-    )
-
-    print("--------------------")
-    print("Creating and caching fundamental data object")
-    print("--------------------")
-    fundamentalObject = create_fundamental_object(
-        api_key=API_KEY, source=requested_source, symbol=ticker, date=e_d
-    )
-
-    # try to load cached objects and if no exception, use them
-    try:
-        # Load cached objects with specific names
-        cache_name = f"stock_{requested_source}_{ticker}_{s_d}_{e_d}.joblib"
-        cached_stock = joblib.load(os.path.join(cachedir, cache_name))
-    except FileNotFoundError:
+    if stock_price_requested:
+        # Cache the objects
         print("--------------------")
-        print("Cached stock object not found")
+        print("Creating and caching stock price data object")
         print("--------------------")
-        cached_stock = None
+        stockObject = create_stock_object(
+            api_key=API_KEY,
+            source=requested_source,
+            symbol=ticker,
+            start_date=s_d,
+            end_date=e_d,
+            weekly=w,
+            monthly=m,
+        )
 
-    try:
-        cache_name = f"fundamental_{requested_source}_{ticker}_{e_d}.joblib"
-        cached_fundamentals = joblib.load(os.path.join(cachedir, cache_name))
-    except FileNotFoundError:
+        # try to load cached objects and if no exception, use them
+        try:
+            # Load cached objects with specific names
+            cache_name = f"stock_{requested_source}_{ticker}_{s_d}_{e_d}.joblib"
+            cached_stock = joblib.load(os.path.join(cachedir, cache_name))
+        except FileNotFoundError:
+            print("--------------------")
+            print("Cached stock object not found")
+            print("--------------------")
+            cached_stock = None
+
+        # Use cached objects
         print("--------------------")
-        print("Cached fundamental object not found")
+        print("Using cached stock ticker object")
         print("--------------------")
-        cached_fundamentals = None
+        print(cached_stock.data_frame.head())
 
-    # Use cached objects
-    print("--------------------")
-    print("Using cached stock ticker object")
-    print("--------------------")
-    print(cached_stock.data_frame.head())
+    if fundamentals_requested:
+        print("--------------------")
+        print("Creating and caching fundamental data object")
+        print("--------------------")
+        fundamentalObject = create_fundamental_object(
+            api_key=API_KEY, source=requested_source, symbol=ticker, date=e_d
+        )
 
-    print("--------------------")
-    print("Using cached fundamentals object")
-    print("--------------------")
-    print(cached_fundamentals.data_frame.head())
+        try:
+            cache_name = f"fundamental_{requested_source}_{ticker}_{e_d}.joblib"
+            cached_fundamentals = joblib.load(os.path.join(cachedir, cache_name))
+        except FileNotFoundError:
+            print("--------------------")
+            print("Cached fundamental object not found")
+            print("--------------------")
+            cached_fundamentals = None
+
+        print("--------------------")
+        print("Using cached fundamentals object")
+        print("--------------------")
+        print(cached_fundamentals.data_frame.head())
 
     # Remove cached objects
     if remove_cache:
