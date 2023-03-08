@@ -1,10 +1,10 @@
 import pandas as pd
 from provider_factory import ApiFactory
-from schemas.prices_schema import StockPrice
+from schemas.prices_schema import StockPrice, IndexPrice
 from openbb_terminal.core.data.helpers import validate_df
 
 
-class StockDataModel:
+class PriceDataModel:
     """OpenBB stock object"""
 
     def __init__(self):
@@ -22,6 +22,7 @@ class StockDataModel:
         self,
         api_key: str,
         source: str,
+        sub_category: str,
         symbol: str,
         start_date: str,
         end_date: str,
@@ -59,8 +60,11 @@ class StockDataModel:
             monthly=self.monthly,
         )
 
-        # check data
-        result, msg = validate_df(self.data_frame, StockPrice)
+        # check data based on sub_category and schema
+        if sub_category == "stock_price":
+            result, msg = validate_df(self.data_frame, StockPrice)
+        elif sub_category == "index_price":
+            result, msg = validate_df(self.data_frame, IndexPrice)
         if result is False:
             self.verified = False
             self.data_frame = None

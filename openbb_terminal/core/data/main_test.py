@@ -4,7 +4,7 @@ import glob
 import shutil
 from dotenv import load_dotenv
 
-from models.stock_model import StockDataModel
+from models.price_model import PriceDataModel
 from models.fundamental_model import FundamentalDataModel
 
 # Temp env file for loading api keys
@@ -49,7 +49,9 @@ if remove_cache:
 # Define cache creation functions
 # -----------------------------------------------
 @memory.cache
-def create_stock_object(api_key, source, symbol, start_date, end_date, weekly, monthly):
+def create_price_object(
+    api_key, source, sub_category, symbol, start_date, end_date, weekly, monthly
+):
     temp_cache_name = f"stock_{source}_{symbol}_{start_date}_{end_date}.joblib"
     cache_path = os.path.join(cachedir, temp_cache_name)
     if os.path.exists(cache_path):
@@ -64,10 +66,11 @@ def create_stock_object(api_key, source, symbol, start_date, end_date, weekly, m
         print(f"Object with parameters {temp_cache_name} does not exist in cache.")
         print("Creating object...")
         print("--------------------")
-        data_object = StockDataModel()
+        data_object = PriceDataModel()
         data_object.load_from_provider(
             api_key=api_key,
             source=source,
+            sub_category=sub_category,
             symbol=symbol,
             start_date=start_date,
             end_date=end_date,
@@ -77,7 +80,6 @@ def create_stock_object(api_key, source, symbol, start_date, end_date, weekly, m
 
         # Check data within object using its members
         if data_object.verified:
-            print(data_object.data_frame.head())
             # Cache object if verified
             current_cache_size = check_cache_size()
             if current_cache_size > total_allowable_cache_size:
@@ -146,18 +148,20 @@ if __name__ == "__main__":
     # user input
     ticker = "MSFT"
     s_d = "2023-01-01"
-    e_d = "2023-01-10"
+    e_d = "2023-03-01"
     w = False
     m = False
 
     if stock_price_requested:
+        category = "stock_price"
         # Cache the objects
         print("--------------------")
         print("Creating and caching stock price data object")
         print("--------------------")
-        stockObject = create_stock_object(
+        stockObject = create_price_object(
             api_key=API_KEY,
             source=requested_source,
+            sub_category=category,
             symbol=ticker,
             start_date=s_d,
             end_date=e_d,
@@ -178,9 +182,9 @@ if __name__ == "__main__":
 
         # Use cached objects
         print("--------------------")
-        print("Using cached stock ticker object")
+        print("Using loaded cached stock ticker object")
         print("--------------------")
-        print(cached_stock.data_frame.head())
+        print(cached_stock.data_frame.head(10))
 
     if fundamentals_requested:
         print("--------------------")
@@ -200,7 +204,7 @@ if __name__ == "__main__":
             cached_fundamentals = None
 
         print("--------------------")
-        print("Using cached fundamentals object")
+        print("Using loaded cached fundamentals object")
         print("--------------------")
         print(cached_fundamentals.data_frame.head())
 
