@@ -1,15 +1,13 @@
 import pandas as pd
-import numpy as np
 from provider_factory import ApiFactory
-from schemas.prices_schema import stock_prices
+from schemas.prices_schema import StockPrice
+from openbb_terminal.core.data.helpers import validate_df
 
 
 class StockDataModel:
     """OpenBB stock object"""
 
     def __init__(self):
-        self.schema = stock_prices
-
         # metadata
         self.source = None
         self.symbol = None
@@ -33,9 +31,9 @@ class StockDataModel:
         """Load stock data from API
 
         Args:
-            api (str): api to use
+            api_key (str): api to use
             symbol (str): stock symbol
-            start_date (str: start date
+            start_date (str): start date
             end_date (str): end date
             weekly (bool): weekly data
             monthly (bool): monthly data
@@ -62,7 +60,7 @@ class StockDataModel:
         )
 
         # check data
-        result, msg = self._check_df()
+        result, msg = validate_df(self.data_frame, StockPrice)
         if result is False:
             self.verified = False
             self.data_frame = None
@@ -76,41 +74,3 @@ class StockDataModel:
 
     def load_from_sql(self, sql_query: str) -> pd.DataFrame:
         pass
-
-    def _check_df(self):
-        # Check if all columns are present in the schema
-        print("------------------------------------------------------------")
-        print("Validating Dataframe")
-        print("------------------------------------------------------------")
-        missing_cols = (
-            set(self.schema.keys())
-            - set(self.data_frame.columns)
-            - set([self.data_frame.index.name])
-        )
-        if missing_cols:
-            return False, f"Missing columns: {missing_cols}"
-
-        # Check data types
-        for col, dtype in self.schema.items():
-            if col in self.data_frame.columns:
-                if not np.issubdtype(self.data_frame[col].dtype, dtype):
-                    self.verified = False
-                    return (
-                        False,
-                        f"Column {col} has incorrect data type. Expected {dtype}, but got {self.data_frame[col].dtype}",
-                    )
-            elif col == self.data_frame.index.name:
-                if not np.issubdtype(self.data_frame.index.dtype, dtype):
-                    self.verified = False
-                    return (
-                        False,
-                        f"Index {col} has incorrect data type. Expected {dtype}, but got {self.data_frame.index.dtype}",
-                    )
-
-        # Check for any null values
-        if self.data_frame.isnull().sum().sum() > 0:
-            self.verified = False
-            return False, "Dataframe contains null values"
-
-        self.verified = True
-        return True, "Verification successful"

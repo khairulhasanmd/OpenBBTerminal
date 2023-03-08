@@ -10,12 +10,15 @@ class YahooProvider:
 
     def load_stock_data(
         self,
+        api_key: str,
         symbol: str,
         start_date: str,
         end_date: str,
         weekly: bool,
         monthly: bool,
     ) -> pd.DataFrame:
+        api_key = api_key  # we dont use it for yahoo but we need it for the interface
+
         int_ = "1d"
         int_string = "Daily"
         if weekly:
