@@ -134,7 +134,7 @@ if __name__ == "__main__":
     # -----------------------------------------------
     # Set up API keys
     # -----------------------------------------------
-    requested_source = "polygon"
+    requested_source = "yahoo"
     stock_price_requested = True
     fundamentals_requested = False
 
