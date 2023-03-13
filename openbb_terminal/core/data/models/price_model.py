@@ -49,10 +49,9 @@ class PriceDataModel:
         self.weekly = weekly
         self.monthly = monthly
 
-        api_provider = ApiFactory.create(self.source)
+        api_provider = ApiFactory.create(self.source, api_key)
 
         self.data_frame = api_provider.load_stock_data(
-            api_key=api_key,
             symbol=self.symbol,
             start_date=self.start_date,
             end_date=self.end_date,

@@ -3,20 +3,21 @@ import requests
 import pandas as pd
 
 
+# TODO To inherit from provider base class
 class PolygonProvider:
-    def __init__(self):
-        self.api_key = None
+    def __init__(self, api_key: str = None):
+        self.api_key = api_key
+
+        # TODO provider base class that all providers will inherit from  (API key)
 
     def load_stock_data(
         self,
-        api_key: str,
         symbol: str,
         start_date: str,
         end_date: str,
         weekly: bool,
         monthly: bool,
     ) -> pd.DataFrame:
-        self.api_key = api_key
         start_date = datetime.datetime.strptime(start_date, "%Y-%m-%d")
         end_date = datetime.datetime.strptime(end_date, "%Y-%m-%d")
 

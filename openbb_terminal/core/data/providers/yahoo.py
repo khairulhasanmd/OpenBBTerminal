@@ -5,12 +5,11 @@ import os
 
 
 class YahooProvider:
-    def __init__(self):
-        pass
+    def __init__(self, api_key: str = None):
+        self.api_key = api_key
 
     def load_stock_data(
         self,
-        api_key: str,
         symbol: str,
         start_date: str,
         end_date: str,
