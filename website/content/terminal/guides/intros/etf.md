@@ -1,6 +1,6 @@
 ---
 title: ETF
-keywords: [etfs, exchange traded funds, fund, basket, retail, stocks, openbb terminal]
+keywords: [etfs, exchange traded funds, fund, basket, retail, stocks, Finance Analysis]
 description: The ETF menu enables you to lookup any ETF and obtain an overview about the chosen ETF. Furthermore, sub-menus reside in this menu that can be used to compare companies within the ETF, discover gainers and losers within discovery and apply advanced technical indicators. Lastly, it also has the option to export multiple ETFs to Excel.
 
 ---

@@ -1,6 +1,6 @@
 ---
 title: theta
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # theta

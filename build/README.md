@@ -1,5 +1,5 @@
 # Building Installers
-This guide serves to assist developers construct OpenBB Terminal installers on MacOs and Windows.
+This guide serves to assist developers construct Finance Analysis installers on MacOs and Windows.
 
 ## Overview
 Building an installer  takes source code as input and produces deployable software as an output. For MacOS the output is a DMG while for windows it is an EXE. This process utilizes two major modules: Pyinstaller & Create-dmg. Windows additionally recruits the service of NSIS. There are two ways to build an installer: locally or through Github.

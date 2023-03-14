@@ -1,6 +1,6 @@
 ---
 title: cashflow
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # cashflow

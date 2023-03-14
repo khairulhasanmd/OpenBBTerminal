@@ -1,6 +1,6 @@
 ---
 title: industry
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # industry

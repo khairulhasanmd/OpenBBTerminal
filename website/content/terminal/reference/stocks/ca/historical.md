@@ -1,6 +1,6 @@
 ---
 title: historical
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # historical

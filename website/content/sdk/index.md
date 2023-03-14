@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-keywords: [getting started, openbb, api, beginner guide, how to use openbb, openbb keys, openbb terminal, introduction, intro, how-to, how to, openbb, sdk]
+keywords: [getting started, openbb, api, beginner guide, how to use openbb, openbb keys, Finance Analysis, introduction, intro, how-to, how to, openbb, sdk]
 description: The OpenBB Documentation provides guidance on how to use the OpenBB SDK, a free, custom built financial SDK that will help you make more informed decisions, faster.
 ---
 
@@ -8,7 +8,7 @@ import Card from "@site/src/components/General/Card";
 
 # Introduction
 
-OpenBB SDK gives you direct and programmatic access to all capabilities from OpenBB Terminal. You will have the necessary building blocks to create your own financial tools and applications, whether that be a visualization dashboard or a custom report on Jupyter Notebook.
+OpenBB SDK gives you direct and programmatic access to all capabilities from Finance Analysis. You will have the necessary building blocks to create your own financial tools and applications, whether that be a visualization dashboard or a custom report on Jupyter Notebook.
 
 With OpenBB SDK, you can gain access to normalized financial data from dozens of data providers, without having to develop your own integrations from scratch. On top of financial data feeds, OpenBB SDK also provides you with a toolbox to perform financial analysis on a variety of asset classes, including stocks, crypto, ETFs, funds, and the economy as well as portfolio optimization and attribution.
 

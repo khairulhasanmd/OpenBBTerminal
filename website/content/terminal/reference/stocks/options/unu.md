@@ -1,6 +1,6 @@
 ---
 title: unu
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # unu

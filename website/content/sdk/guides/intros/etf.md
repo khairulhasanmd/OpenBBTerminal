@@ -1,10 +1,10 @@
 ---
 title: ETF
-keywords: [etfs, exchange traded funds, fund, basket, retail, stocks, openbb terminal]
+keywords: [etfs, exchange traded funds, fund, basket, retail, stocks, Finance Analysis]
 description: The ETF menu enables you to lookup any ETF and obtain an overview about the chosen ETF. Furthermore, sub-menus reside in this menu that can be used to compare companies within the ETF, discover gainers and losers within discovery and apply advanced technical indicators. Lastly, it also has the option to export multiple ETFs to Excel.
 ---
 
-The ETF module provides programmatic access to the commands from within the OpenBB Terminal. Import the OpenBB SDK module, and then access the functions similarly to how the Terminal menus are navigated. The code completion will be activated upon entering `.`, after, `openbb.etf`
+The ETF module provides programmatic access to the commands from within the Finance Analysis. Import the OpenBB SDK module, and then access the functions similarly to how the Terminal menus are navigated. The code completion will be activated upon entering `.`, after, `openbb.etf`
 ​
 
 ## How to Use
@@ -135,7 +135,7 @@ The ETF screener is also accessible through the SDK. Variables for the screener 
 
 - For a pip/PyPi installation: `~/path_to/miniconda3/envs/obb/Lib/site-packages/openbb_terminal/etf/screener/presets/etf_config.ini`
 - For a Git Clone & Conda installation: `~/path_to/cloned_folder/OpenBBTerminal/openbb_terminal/etf/screener/presets/etf_config.ini`
-- For a the EXE/DMG installer bundles: `~/path_to_installation/OpenBB Terminal/.OpenBB/openbb_terminal/etf/screener/etf_config.ini`
+- For a the EXE/DMG installer bundles: `~/path_to_installation/Finance Analysis/.OpenBB/openbb_terminal/etf/screener/etf_config.ini`
 
 This file can be copied to the user data folder, `~/OpenBBUserData/presets/etf/screener/`, along with any other user-generated screener presets.
 

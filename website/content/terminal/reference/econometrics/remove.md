@@ -1,6 +1,6 @@
 ---
 title: remove
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # remove

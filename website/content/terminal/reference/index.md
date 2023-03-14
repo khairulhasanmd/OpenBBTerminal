@@ -1,4 +1,4 @@
-# OpenBB Terminal Features
+# Finance Analysis Features
 
 
 ## alt

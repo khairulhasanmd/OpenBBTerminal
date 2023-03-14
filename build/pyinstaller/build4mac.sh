@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DISK_IMAGE_NAME="OpenBB Terminal"
+DISK_IMAGE_NAME="Finance Analysis"
 
 # exit when any command fails
 set -e
@@ -42,10 +42,10 @@ then
 fi
 
 create-dmg \
-    --volname "OpenBB Terminal" \
+    --volname "Finance Analysis" \
     --volicon "images/dmg_volume.icns" \
     --background "images/openbb_dmg_background.png" \
-    --icon "OpenBB Terminal" 190 250 \
+    --icon "Finance Analysis" 190 250 \
     --window-pos 190 120 \
     --window-size 800 400 \
     --icon-size 100 \
@@ -54,7 +54,7 @@ create-dmg \
     --eula LICENSE \
     --format UDZO \
     --no-internet-enable \
-    "OpenBB Terminal".dmg DMG
+    "Finance Analysis".dmg DMG
 
 
 # Clean Up artifacts from this build

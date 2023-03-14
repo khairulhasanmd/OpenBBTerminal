@@ -1,6 +1,6 @@
 ---
 title: pipo
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # pipo

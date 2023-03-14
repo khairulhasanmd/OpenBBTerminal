@@ -1,6 +1,6 @@
 ---
 title: fun
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # fun

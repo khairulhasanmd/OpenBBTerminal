@@ -1,6 +1,6 @@
 ---
 title: lt
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # lt

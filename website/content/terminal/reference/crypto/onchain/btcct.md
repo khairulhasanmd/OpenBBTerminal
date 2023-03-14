@@ -1,6 +1,6 @@
 ---
 title: btcct
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # btcct

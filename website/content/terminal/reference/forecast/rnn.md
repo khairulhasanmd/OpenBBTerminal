@@ -1,6 +1,6 @@
 ---
 title: rnn
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # rnn

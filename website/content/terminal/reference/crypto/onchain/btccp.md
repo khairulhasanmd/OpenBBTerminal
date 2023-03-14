@@ -1,6 +1,6 @@
 ---
 title: btccp
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # btccp

@@ -1,6 +1,6 @@
 ---
 title: ulc
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # ulc

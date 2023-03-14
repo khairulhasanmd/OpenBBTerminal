@@ -1,6 +1,6 @@
 ---
 title: newsletter
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # newsletter

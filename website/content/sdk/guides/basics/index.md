@@ -2,11 +2,11 @@
 title: Basics
 sidebar_position: 1
 description: The OpenBB SDK is a modern investment research platform for everyone. It is a Software Development Kit that allows you to access all the data and tools you need to make better investment decisions.
-keywords: [basics, installation, commands, menus, your own data, introduction, openbb terminal, explanation, basic usage, usage, how to, openbb sdk]
+keywords: [basics, installation, commands, menus, your own data, introduction, Finance Analysis, explanation, basic usage, usage, how to, openbb sdk]
 ---
 ### Importing the SDK
 
-Now that you have the SDK installed, the first step is to import the OpenBB SDK in your preferred code editor. Nearly everything required to interact with any function from the OpenBB Terminal gets imported in one line. Begin a Python script or Notebook file with:
+Now that you have the SDK installed, the first step is to import the OpenBB SDK in your preferred code editor. Nearly everything required to interact with any function from the Finance Analysis gets imported in one line. Begin a Python script or Notebook file with:
 
 ```python
 from openbb_terminal.sdk import openbb
@@ -16,7 +16,7 @@ Example snippets used in the remainder of this guide will assume the code block 
 
 ### Navigation
 
-In the same way as operating the OpenBB Terminal, functions are divided into menus which are scrollable after importing into a jupyter notebook. Entering a period, `.`, after `openbb`, will display the Sub-menus available.
+In the same way as operating the Finance Analysis, functions are divided into menus which are scrollable after importing into a jupyter notebook. Entering a period, `.`, after `openbb`, will display the Sub-menus available.
 
 ![Navigation](https://user-images.githubusercontent.com/85772166/202795900-5f1cb00a-a0ff-4899-b6e2-c5af54b653d1.png "Navigation")
 
@@ -126,7 +126,7 @@ dia_valuation.head(5)
 
 ### Displaying Charts
 
-The OpenBB SDK has built-in charting libraries for Matplotlib, for any chart available from the Terminal. User style sheets can be added to the folder (more on this in [Importing and Exporting Data](/sdk/guides/advanced/data)), `~/OpenBBUserData/styles/user`. Styles are shared properties between the OpenBB Terminal and the SDK.
+The OpenBB SDK has built-in charting libraries for Matplotlib, for any chart available from the Terminal. User style sheets can be added to the folder (more on this in [Importing and Exporting Data](/sdk/guides/advanced/data)), `~/OpenBBUserData/styles/user`. Styles are shared properties between the Finance Analysis and the SDK.
 
 :::note Displaying charts in Jupyter Notebooks requires an additional line of code. You can either render a static image with `%matplotlib inline` or add in pan/zoom functionality with `%matplotlib widget`.
 :::

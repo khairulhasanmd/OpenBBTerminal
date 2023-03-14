@@ -1,6 +1,6 @@
 ---
 title: which
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # which

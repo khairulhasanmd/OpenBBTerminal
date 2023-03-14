@@ -1,6 +1,6 @@
 ---
 title: infoswe
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # infoswe

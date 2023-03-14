@@ -1,6 +1,6 @@
 ---
 title: tr
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # tr

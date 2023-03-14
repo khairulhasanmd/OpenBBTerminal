@@ -1,6 +1,6 @@
 ---
 title: est
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # est

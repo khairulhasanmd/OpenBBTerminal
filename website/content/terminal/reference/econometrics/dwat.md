@@ -1,6 +1,6 @@
 ---
 title: dwat
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # dwat

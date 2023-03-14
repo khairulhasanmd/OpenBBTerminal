@@ -1,6 +1,6 @@
 ---
 title: contracts
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # contracts

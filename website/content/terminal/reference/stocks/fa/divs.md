@@ -1,6 +1,6 @@
 ---
 title: divs
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # divs

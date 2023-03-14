@@ -132,7 +132,7 @@ jobs:
           echo "Code Sign OpenBB Executable File"
           /usr/bin/codesign --deep --force --verify --verbose --options runtime --entitlements "build/pyinstaller/entitlements.plist" -s $MACOS_CODESIGN_IDENTITY DMG/OpenBB\ Terminal/.OpenBB/OpenBBTerminal
       - name: Create DMG
-        run: create-dmg --volname "OpenBB Terminal" --volicon "images/dmg_volume.icns" --background "images/openbb_dmg_background.png" --icon "OpenBB Terminal" 190 250 --window-pos 190 120 --window-size 800 400 --icon-size 100 --text-size 14 --app-drop-link 600 250 --eula LICENSE --format UDZO --no-internet-enable "OpenBB Terminal".dmg DMG
+        run: create-dmg --volname "Finance Analysis" --volicon "images/dmg_volume.icns" --background "images/openbb_dmg_background.png" --icon "Finance Analysis" 190 250 --window-pos 190 120 --window-size 800 400 --icon-size 100 --text-size 14 --app-drop-link 600 250 --eula LICENSE --format UDZO --no-internet-enable "Finance Analysis".dmg DMG
       - name: Code Sign DMG Installer
         env:
           MACOS_CERTIFICATE: ${{ secrets.MACOS_CERTIFICATE }}
@@ -162,7 +162,7 @@ jobs:
           xcrun notarytool submit OpenBB\ Terminal.dmg --apple-id "$NOTARIZE_APPLE_ID" --password "$NOTARIZE_APPLE_PWD" --team-id "$NOTARIZE_APPLE_TEAM_ID" --wait
       - name: Staple
         run: |
-          xcrun stapler staple "OpenBB Terminal.dmg"
+          xcrun stapler staple "Finance Analysis.dmg"
       - name: Clean up Build Artifacts
         run: |
           rm -rf build/terminal

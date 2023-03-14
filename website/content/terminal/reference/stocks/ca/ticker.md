@@ -1,6 +1,6 @@
 ---
 title: ticker
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # ticker

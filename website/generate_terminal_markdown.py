@@ -165,7 +165,7 @@ def generate_markdown(
     markdown = f"""---
 ########### THIS FILE IS AUTO GENERATED - ANY CHANGES WILL BE VOID ###########
 title: {cmd_meta["cmd_name"]}
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---\n\n"""
 
     # head meta https://docusaurus.io/docs/markdown-features/head-metadata
@@ -300,7 +300,7 @@ def main() -> bool:
     # Generate root "index.md" file
     with open(content_path / "index.md", "w", **wopen_kwargs) as f:  # type: ignore
         f.write(
-            f"# OpenBB Terminal Features\n\n{generate_index_markdown('', terminal_ref, 2)}"
+            f"# Finance Analysis Features\n\n{generate_index_markdown('', terminal_ref, 2)}"
         )
 
     def gen_category_json(fname: str, path: Path):

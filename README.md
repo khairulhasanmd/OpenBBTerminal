@@ -33,13 +33,13 @@
 <br />
 
 <p align="center">
-  <h3 align="center">OpenBB Terminal 🚀</h3>
+  <h3 align="center">Finance Analysis 🚀</h3>
   <h4 align="center">Documentation can be found at: https://openbb.co/docs </h4>
   <p align="center">Click on the GIF below for a DEMO of the terminal.</p>
 
   <p align="center">
-     <a href="https://www.youtube.com/watch?v=fqGPK8OVHLk" rel="OpenBB Terminal Demo">
-        <img src="images/openbb_terminal_illustration.gif" alt="OpenBB Terminal Illustration" width="100%"/>
+     <a href="https://www.youtube.com/watch?v=fqGPK8OVHLk" rel="Finance Analysis Demo">
+        <img src="images/openbb_terminal_illustration.gif" alt="Finance Analysis Illustration" width="100%"/>
      </a>
   </p>
 
@@ -67,14 +67,14 @@
 
 ## 1. Installation
 
-If you wish to install the OpenBB Terminal or the OpenBB SDK, please use one of the following options:
+If you wish to install the Finance Analysis or the OpenBB SDK, please use one of the following options:
 
-|**OpenBB Terminal**|**Usage**|
+|**Finance Analysis**|**Usage**|
 |:-|:-|
-|[Windows Installer](https://docs.openbb.co/terminal/quickstart/installation?tab=windows)|Recommended way for Windows if you just want to use the OpenBB Terminal|
-|[MacOS Installer](https://docs.openbb.co/terminal/quickstart/installation?tab=mac)|Recommended way for MacOS if you just want to use the OpenBB Terminal|
-|[Docker](https://docs.openbb.co/terminal/quickstart/installation?tab=docker)|An alternative way if you just want to use the OpenBB Terminal|
-|[Python](https://docs.openbb.co/terminal/quickstart/installation?tab=python)|If you wish to contribute to the development of the OpenBB Terminal|
+|[Windows Installer](https://docs.openbb.co/terminal/quickstart/installation?tab=windows)|Recommended way for Windows if you just want to use the Finance Analysis|
+|[MacOS Installer](https://docs.openbb.co/terminal/quickstart/installation?tab=mac)|Recommended way for MacOS if you just want to use the Finance Analysis|
+|[Docker](https://docs.openbb.co/terminal/quickstart/installation?tab=docker)|An alternative way if you just want to use the Finance Analysis|
+|[Python](https://docs.openbb.co/terminal/quickstart/installation?tab=python)|If you wish to contribute to the development of the Finance Analysis|
 
 |**OpenBB SDK** &nbsp; &nbsp; &nbsp; &nbsp; |**Usage**|
 |:-|:-|

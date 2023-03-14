@@ -1,6 +1,6 @@
 ---
 title: panel
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # panel

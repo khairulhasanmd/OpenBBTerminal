@@ -1,6 +1,6 @@
 ---
 title: linregr
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # linregr

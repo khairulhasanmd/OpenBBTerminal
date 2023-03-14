@@ -1,6 +1,6 @@
 ---
 title: compare
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # compare

@@ -385,7 +385,7 @@ def ipykernel_launcher(module_file: str, module_hist_file: str):
 
         'papermill' was using '.../bin/python' because it is looks for the sys.executable[0],
         which most of the time leads to the python interpreter. In our frozen app,
-        sys.executable[0] leads to 'OpenBB Terminal/.OpenBB/OpenBBTerminal', which in turn
+        sys.executable[0] leads to 'Finance Analysis/.OpenBB/OpenBBTerminal', which in turn
         executes 'terminal.py.
 
         This means that the command was being executed in 'terminal.py'. Consequently,

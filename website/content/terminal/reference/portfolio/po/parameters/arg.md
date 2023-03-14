@@ -1,6 +1,6 @@
 ---
 title: arg
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # arg

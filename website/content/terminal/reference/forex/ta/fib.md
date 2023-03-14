@@ -1,6 +1,6 @@
 ---
 title: fib
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # fib

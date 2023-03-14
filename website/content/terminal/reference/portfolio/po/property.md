@@ -1,6 +1,6 @@
 ---
 title: property
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # property

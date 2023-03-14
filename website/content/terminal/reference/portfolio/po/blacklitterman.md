@@ -1,6 +1,6 @@
 ---
 title: blacklitterman
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # blacklitterman

@@ -1,6 +1,6 @@
 ---
 title: fp
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # fp

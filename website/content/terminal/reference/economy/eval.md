@@ -1,6 +1,6 @@
 ---
 title: eval
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # eval

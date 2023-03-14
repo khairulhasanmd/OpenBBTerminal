@@ -1,6 +1,6 @@
 ---
 title: popular
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # popular

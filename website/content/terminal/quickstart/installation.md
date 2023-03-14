@@ -1,7 +1,7 @@
 ---
 title: Installation
 sidebar_position: 2
-description: The OpenBB Terminal can be directly installed on a Mac or Windows machine via the installer packages below. While not available for Linux is currently available, it can be installed from the command line in a virtual Python environment.
+description: The Finance Analysis can be directly installed on a Mac or Windows machine via the installer packages below. While not available for Linux is currently available, it can be installed from the command line in a virtual Python environment.
 keywords:
   [
     installation,
@@ -16,12 +16,12 @@ keywords:
     macos,
     how to,
     explanation,
-    openbb terminal,
+    Finance Analysis,
   ]
 ---
 import InstallerButton from "@site/src/components/General/InstallerButton";
 
-The OpenBB Terminal can be directly installed on a Mac or Windows machine via the installer packages below. While not available for Linux is currently available, it can be installed from the command line in a virtual Python environment. Having trouble? Reach us on [Discord](https://openbb.co/discord) or visit our [contact page](https://openbb.co/contact).
+The Finance Analysis can be directly installed on a Mac or Windows machine via the installer packages below. While not available for Linux is currently available, it can be installed from the command line in a virtual Python environment. Having trouble? Reach us on [Discord](https://openbb.co/discord) or visit our [contact page](https://openbb.co/contact).
 
 Follow along with the instructions for the preferred installation method:
 
@@ -29,7 +29,7 @@ Follow along with the instructions for the preferred installation method:
 
 ### A. Windows Installer
 
-Install the OpenBB Terminal on Windows (10 or greater):
+Install the Finance Analysis on Windows (10 or greater):
 
 #### 1. Download
 
@@ -53,7 +53,7 @@ Install the OpenBB Terminal on Windows (10 or greater):
 
 ### B. MacOS Installer
 
-Install the OpenBB Terminal on MacOS (Big Sur or later). There are two versions of the installers available for MacOS, Apple Silicon (M1) and Intel-based. Apple Silicon users will need to install Rosetta prior to installation. Install Rosetta from the command line:
+Install the Finance Analysis on MacOS (Big Sur or later). There are two versions of the installers available for MacOS, Apple Silicon (M1) and Intel-based. Apple Silicon users will need to install Rosetta prior to installation. Install Rosetta from the command line:
 
 ```console
 softwareupdate --install-rosetta
@@ -73,17 +73,17 @@ softwareupdate --install-rosetta
 
 #### 3. Drag Folder
 
-**Step 3:** Click and drag the OpenBB Terminal folder and hold it over the Applications shortcut. This opens a new Finder window, then drag the OpenBB Terminal folder into the Applications folder.
+**Step 3:** Click and drag the Finance Analysis folder and hold it over the Applications shortcut. This opens a new Finder window, then drag the Finance Analysis folder into the Applications folder.
 
 ![MacOS Installation](https://user-images.githubusercontent.com/11668535/173027899-9b25ae4f-1eef-462c-9dc9-86086e9cf197.png)
 
 #### 4. Unmount DMG
 
-**Step 4:** Unmount the installer, by "Ejecting OpenBB Terminal" from, locations, in Finder.
+**Step 4:** Unmount the installer, by "Ejecting Finance Analysis" from, locations, in Finder.
 
 #### 5. Launch
 
-**Step 5:** Launch the application by double-clicking on the `OpenBB Terminal` application.
+**Step 5:** Launch the application by double-clicking on the `Finance Analysis` application.
 
 **Note:** During the first launch, a warning message may appear. Click, "Open".
 
@@ -93,7 +93,7 @@ softwareupdate --install-rosetta
 
 ## Source Code
 
-The following instructions are for installing the OpenBB Terminal source code.
+The following instructions are for installing the Finance Analysis source code.
 
 ### 1. System Preparation
 
@@ -221,7 +221,7 @@ After the packages from Step 2 install, activate the newly created environment b
 conda activate obb
 ```
 
-### 4. Install OpenBB Terminal
+### 4. Install Finance Analysis
 
 From the command line, navigate into a folder where the installation should live. Do not continue without completing steps 1-3.
 
@@ -246,7 +246,7 @@ pip install qdldl==0.1.5.post3
 poetry install -E all
 ```
 
-#### 4.4 Launch OpenBB Terminal
+#### 4.4 Launch Finance Analysis
 
 Start the terminal by running:
 
@@ -262,7 +262,7 @@ python terminal.py
 
 ## Docker
 
-Installing the OpenBB Terminal via Docker supports both Windows and Unix systems (Linux + MacOS). Installation differs a bit between operating system (Windows, macOS and Linux). Please select the section matching to your OS.
+Installing the Finance Analysis via Docker supports both Windows and Unix systems (Linux + MacOS). Installation differs a bit between operating system (Windows, macOS and Linux). Please select the section matching to your OS.
 
 ### 1. Windows
 
@@ -322,7 +322,7 @@ docker compose run openbb
 
 This will download and run the file: `docker-compose.yaml`
 
-This file contents the settings to pull and run OpenBB Terminal Docker image.
+This file contents the settings to pull and run Finance Analysis Docker image.
 
 ### 2. MacOS
 
@@ -367,7 +367,7 @@ docker compose run -e DISPLAY=$IP:0 openbb
 
 This will download and run the file: `docker-compose.yaml`
 
-This file contents the settings to pull and run OpenBB Terminal Docker image.
+This file contents the settings to pull and run Finance Analysis Docker image.
 
 The `xhost +$IP` and `DISPLAY=$IP:0` parts are there to allow charts display.
 

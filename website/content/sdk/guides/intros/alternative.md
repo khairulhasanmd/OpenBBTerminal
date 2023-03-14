@@ -1,10 +1,10 @@
 ---
 title: Alternative
-keywords: [alternative data, alternative, data, alt, openbb terminal]
-description: The Alternative module provides programmatic access to the commands from within the OpenBB Terminal. Import the OpenBB SDK module, and then access the functions similarly to how the Terminal menus are navigated.
+keywords: [alternative data, alternative, data, alt, Finance Analysis]
+description: The Alternative module provides programmatic access to the commands from within the Finance Analysis. Import the OpenBB SDK module, and then access the functions similarly to how the Terminal menus are navigated.
 ---
 
-The Alternative module provides programmatic access to the commands from within the OpenBB Terminal. Import the OpenBB SDK module, and then access the functions similarly to how the Terminal menus are navigated. The code completion will be activated upon entering `.`, after, `openbb.alt`
+The Alternative module provides programmatic access to the commands from within the Finance Analysis. Import the OpenBB SDK module, and then access the functions similarly to how the Terminal menus are navigated. The code completion will be activated upon entering `.`, after, `openbb.alt`
 
 ## How to Use
 ​

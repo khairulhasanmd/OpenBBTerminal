@@ -1,6 +1,6 @@
 ---
 title: pir
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # pir

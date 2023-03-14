@@ -1,6 +1,6 @@
 ---
 title: roc
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # roc

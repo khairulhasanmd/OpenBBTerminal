@@ -1,10 +1,10 @@
 ---
 title: Futures
-keywords: [forex, currency, money, hedge, dollar, euro, futures, future, interest, rates, forwards, commodities, bonds, treasuries, bond, gold, oil, openbb terminal]
+keywords: [forex, currency, money, hedge, dollar, euro, futures, future, interest, rates, forwards, commodities, bonds, treasuries, bond, gold, oil, Finance Analysis]
 description: The Futures menu provides historical prices and the current term structure for an asset.
 ---
 
-The functions from the OpenBB Terminal Futures menu is part of the SDK layer, and provides methods for programmatically accessing the data and charts associated with them. Get started by importing the OpenBB SDK to the Python script or Jupyter Notebook file.
+The functions from the Finance Analysis Futures menu is part of the SDK layer, and provides methods for programmatically accessing the data and charts associated with them. Get started by importing the OpenBB SDK to the Python script or Jupyter Notebook file.
 
 
 ## How to Use

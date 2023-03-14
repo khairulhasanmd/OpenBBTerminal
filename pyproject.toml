@@ -9,9 +9,9 @@ packages = [
 ]
 include = ["terminal.py"]
 readme = "website/content/sdk/quickstart/pypi.md"
-homepage = "https://openbb.co"
-repository = "https://github.com/OpenBB-finance/OpenBBTerminal"
-documentation = "https://docs.openbb.co/sdk"
+homepage = ""
+repository = ""
+documentation = ""
 
 [tool.poetry.scripts]
 openbb = 'terminal:main'

@@ -43,7 +43,7 @@ class MetadataBuilder:
     @staticmethod
     def build_docstring(trail: str, dir_list: List[str]) -> str:
         if trail == "":
-            docstring = """This is the OpenBB Terminal SDK.
+            docstring = """This is the Finance Analysis SDK.
             Use the SDK to get data directly into your jupyter notebook or directly use it in your application.
             For more information see the official documentation at: https://openbb-finance.github.io/OpenBBTerminal/SDK/
             """
@@ -78,7 +78,7 @@ class Breadcrumb:
         trail_map: Optional[TrailMap] = None,
     ) -> None:
         """
-        Generates a 'trail' that allows accessing OpenBB Terminal SDK methods.
+        Generates a 'trail' that allows accessing Finance Analysis SDK methods.
 
         Example:
             openbb.forex.get_currency_list()

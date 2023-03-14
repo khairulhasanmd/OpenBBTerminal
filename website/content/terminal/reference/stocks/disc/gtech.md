@@ -1,6 +1,6 @@
 ---
 title: gtech
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # gtech

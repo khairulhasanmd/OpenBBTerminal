@@ -1,5 +1,5 @@
 
-Welcome to OpenBB Terminal 1.0
+Welcome to Finance Analysis 1.0
 
 
 Multiple jobs queue (where each '/' denotes a new command).

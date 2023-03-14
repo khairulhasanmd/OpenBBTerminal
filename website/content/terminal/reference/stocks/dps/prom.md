@@ -1,6 +1,6 @@
 ---
 title: prom
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # prom

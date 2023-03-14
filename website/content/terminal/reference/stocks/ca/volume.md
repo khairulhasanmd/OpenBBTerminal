@@ -1,6 +1,6 @@
 ---
 title: volume
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # volume

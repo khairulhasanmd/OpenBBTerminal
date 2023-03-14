@@ -32,7 +32,7 @@ class TestMainHelper(unittest.TestCase):
     def test_print_goodbye(self):
         terminal_helper.print_goodbye()
 
-    @check_print(assert_in="Welcome to OpenBB Terminal")
+    @check_print(assert_in="Welcome to Finance Analysis")
     def test_welcome_message(self):
         terminal_helper.welcome_message()
 

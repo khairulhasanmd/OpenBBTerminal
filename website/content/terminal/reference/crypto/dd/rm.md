@@ -1,6 +1,6 @@
 ---
 title: rm
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # rm

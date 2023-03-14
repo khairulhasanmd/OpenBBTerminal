@@ -1,6 +1,6 @@
 ---
 title: delta
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # delta

@@ -1,6 +1,6 @@
 ---
 title: skew
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # skew

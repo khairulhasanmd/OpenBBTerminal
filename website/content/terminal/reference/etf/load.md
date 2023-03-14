@@ -1,6 +1,6 @@
 ---
 title: load
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # load
@@ -61,6 +61,6 @@ Top company holdings found: AAPL, MSFT, AMZN, GOOGL, TSLA
 │    ta                 technical analysis,           ema, macd, rsi, adx, bbands, obv                                                                                                                              │
 │    pred               prediction techniques,        regression, arima, rnn, lstm                                                                                                                                  │
 │                                                                                                                                                                                                                    │
-╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── OpenBB Terminal v1.3.0 (https://openbb.co) ─╯
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── Finance Analysis v1.3.0 (https://openbb.co) ─╯
 ```
 ---

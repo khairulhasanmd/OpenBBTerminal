@@ -1,6 +1,6 @@
 ---
 title: links
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # links

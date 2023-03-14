@@ -1,6 +1,6 @@
 ---
 title: coint
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # coint

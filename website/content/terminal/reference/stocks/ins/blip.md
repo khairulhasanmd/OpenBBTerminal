@@ -1,6 +1,6 @@
 ---
 title: blip
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # blip

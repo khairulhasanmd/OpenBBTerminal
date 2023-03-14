@@ -1,6 +1,6 @@
 ---
 title: trades
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # trades

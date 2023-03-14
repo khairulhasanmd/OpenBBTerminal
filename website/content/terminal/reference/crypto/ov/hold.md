@@ -1,6 +1,6 @@
 ---
 title: hold
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # hold

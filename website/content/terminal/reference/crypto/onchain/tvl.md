@@ -1,6 +1,6 @@
 ---
 title: tvl
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # tvl

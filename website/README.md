@@ -80,7 +80,7 @@ We welcome contributions to the OpenBB Documentation Website.
 
 # Hugo Server
 
-The current features can be found in [OpenBB Terminal Features](https://openbb-finance.github.io/OpenBBTerminal).
+The current features can be found in [Finance Analysis Features](https://openbb-finance.github.io/OpenBBTerminal).
 
 <!-- TABLE OF CONTENTS -->
 <summary><h2 style="display: inline-block">Table of Contents</h2></summary>

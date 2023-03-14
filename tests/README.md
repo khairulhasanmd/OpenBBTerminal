@@ -1,6 +1,6 @@
-# 1. OpenBB Terminal : `Unit Testing`
+# 1. Finance Analysis : `Unit Testing`
 
-This document is part of the `OpenBB Terminal` library documentation.
+This document is part of the `Finance Analysis` library documentation.
 
 It aims to provide necessary information in order to:
 
@@ -30,7 +30,7 @@ Tests can be slow at times, due to the need to connect with external services. T
 
 # 2. Run `unit tests`
 
-In this section we will explain everything you need to run the `unit tests` on `OpenBB Terminal`.
+In this section we will explain everything you need to run the `unit tests` on `Finance Analysis`.
 
 ## 2.1. How to install tests dependencies ?
 
@@ -112,7 +112,7 @@ def test_some_function(mocker):
 
 When you contribute a new feature to the Terminal, it's important that tests are added for this particular feature. It is a part of the Checklist for the PR to be approved.
 
-All the `unit tests` should be insides the `tests` folder. There should be at most one `test module` for each `module` of `OpenBB Terminal`.
+All the `unit tests` should be insides the `tests` folder. There should be at most one `test module` for each `module` of `Finance Analysis`.
 
 Each `test module` should follow the same path of the `module` that it is `testing`.For instance,
 - in order to test the following module `openbb_terminal/stocks/due_diligence/dd_controller.py`

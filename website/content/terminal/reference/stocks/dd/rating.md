@@ -1,6 +1,6 @@
 ---
 title: rating
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # rating

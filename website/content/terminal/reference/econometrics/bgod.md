@@ -1,6 +1,6 @@
 ---
 title: bgod
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # bgod

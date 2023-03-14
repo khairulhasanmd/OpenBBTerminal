@@ -1,6 +1,6 @@
 ---
 title: dvcp
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # dvcp

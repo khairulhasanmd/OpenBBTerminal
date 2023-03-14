@@ -13,9 +13,9 @@ An installation will use approximately 4GB of space.
 
 </details>
 
-<details><summary>What is the minimum version of Windows or MacOS required to install the OpenBB Terminal?</summary>
+<details><summary>What is the minimum version of Windows or MacOS required to install the Finance Analysis?</summary>
 
-The OpenBB Terminal installation packages are compatible with:
+The Finance Analysis installation packages are compatible with:
 
 - Windows 10 or later.
 - MacOS Monterey or later.
@@ -90,7 +90,7 @@ softwareupdate --install-rosetta
 
 <details><summary>Terminal app does not launch: Failed to execute script 'terminal' due to unhandled exception!</summary>
 
-When an installer-packaged version of the OpenBB Terminal fails to launch, because of this message, the machine may have an obsolete CPU-type or operating system. Please try installing via the source code, and if problems persist, reach out to us on [Discord](https://discord.gg/xPHTuHCmuV) or fill out a support request form on our [website](https://openbb.co/support).
+When an installer-packaged version of the Finance Analysis fails to launch, because of this message, the machine may have an obsolete CPU-type or operating system. Please try installing via the source code, and if problems persist, reach out to us on [Discord](https://discord.gg/xPHTuHCmuV) or fill out a support request form on our [website](https://openbb.co/support).
 
 </details>
 
@@ -260,7 +260,7 @@ load SPY -i 60
 
 <details><summary>Can I stream live prices and news feeds?</summary>
 
-The OpenBB Terminal is not currently capable of streaming live feeds through websocket connections.
+The Finance Analysis is not currently capable of streaming live feeds through websocket connections.
 
 </details>
 
@@ -315,15 +315,15 @@ First, search the open issues for another report. If one already exists, attach 
 
 </details>
 
-<details><summary>How can I get help with OpenBB Terminal?</summary>
+<details><summary>How can I get help with Finance Analysis?</summary>
 
-You can get help with OpenBB Terminal by joining our [Discord server](https://openbb.co/discord) or contact us in our support form [here](https://openbb.co/support).
+You can get help with Finance Analysis by joining our [Discord server](https://openbb.co/discord) or contact us in our support form [here](https://openbb.co/support).
 
 </details>
 
-<details><summary>How can I give feedback about the OpenBB Terminal, or request specific functionality?</summary>
+<details><summary>How can I give feedback about the Finance Analysis, or request specific functionality?</summary>
 
-Being an open source platform that wishes to tailor to the needs of any type of investor, we highly encourage anyone to share with us their experience and/or how we can further improve the OpenBB Terminal. This can be anything from a very small bug, a new feature, or the implementation of a highly advanced Machine Learning model.
+Being an open source platform that wishes to tailor to the needs of any type of investor, we highly encourage anyone to share with us their experience and/or how we can further improve the Finance Analysis. This can be anything from a very small bug, a new feature, or the implementation of a highly advanced Machine Learning model.
 
 You are able to directly send us information about a bug or a question/suggestion from inside the terminal by using the `support` command which is available everywhere in the terminal. Here you can select which command you want to report a bug on, ask a question or make a suggestion. After entering `support`, when you press `ENTER` (⏎), you are taken to the Support form which is automatically filled with your input. You are only required to include the type (e.g. bug, suggestion or question) and message in the form, although this can also be set directly from inside the terminal (see `support -h`).
 

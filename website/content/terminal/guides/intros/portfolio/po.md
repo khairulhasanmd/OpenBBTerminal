@@ -18,7 +18,7 @@ The first step in using this menu is loading a portfolio with <a href="/terminal
 1. Download the Excel file that can be used as a template [here](https://www.dropbox.com/s/wp1lcq86exyngjy/allocation_example.xlsx?dl=0).
 2. Move the file inside the `portfolio/allocation` folder within the [OpenBBUserData](https://docs.openbb.co/terminal/guides/advanced/data) folder and, optionally, adjust the name to your liking.
 3. Open the Excel file and remove, edit or add to the values as you desire (e.g. your own allocation). This is the default template that is also loaded in with `load --example`.
-4. Open up the OpenBB Terminal, go to `portfolio/po` and type `load --file`. Your Excel file should then be one of the options.
+4. Open up the Finance Analysis, go to `portfolio/po` and type `load --file`. Your Excel file should then be one of the options.
 :::
 
 Furthermore, given the amount of options you can choose from in each command and giving the complexity of the topic, we also provide a parameter file (both .xlsx and .ini to adjust parameters in a user-friendly way).
@@ -27,7 +27,7 @@ Furthermore, given the amount of options you can choose from in each command and
 1. Download the file that can be used as a template: [xlsx](https://www.dropbox.com/s/qfhd7ntj7mlwsuc/parameters_template.xlsx?dl=0) (recommended) or [ini](https://www.dropbox.com/s/3ehwg3hiwm89hgo/parameters_template.ini?dl=0) (advanced).
 2. Move the file inside the `portfolio/optimization` folder within the [OpenBBUserData](https://docs.openbb.co/terminal/guides/advanced/data) folder and, optionally, adjust the name to your liking.
 3. Open the file and set parameters as you wish.
-4. Open up the OpenBB Terminal, go to `portfolio/po` and type `file --file`. The file should then be one of the options.
+4. Open up the Finance Analysis, go to `portfolio/po` and type `file --file`. The file should then be one of the options.
 :::
 
 Find more information about these two templates below.
@@ -53,7 +53,7 @@ Current Categories: ASSET_CLASS, SECTOR, INDUSTRY, COUNTRY, CURRENT_INVESTED_AMO
 
 This template provides the user with the ability to set define values for each parameter based on the optimization technique that is deployed. E.g. if you select `riskparity` for the `technique` parameter, you will notice that some parameters turn <span style={{color: "#BEBEBE"}}>grey</span>. This means that the parameter is irrelevant for the selected method.
 
-The OpenBB Terminal does, however, allow the user to run any model despite the `technique` you selected. Therefore, if you are interested in running multiple models, consider removing the value for `technique`. Do note that this makes it more difficult to understand which values are used for which model.
+The Finance Analysis does, however, allow the user to run any model despite the `technique` you selected. Therefore, if you are interested in running multiple models, consider removing the value for `technique`. Do note that this makes it more difficult to understand which values are used for which model.
 
 <img src="https://user-images.githubusercontent.com/46355364/171144692-dd812efd-1e95-4a71-a93f-7ae8a480fe5d.png"></img>
 

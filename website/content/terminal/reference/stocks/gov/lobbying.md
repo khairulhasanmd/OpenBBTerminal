@@ -1,6 +1,6 @@
 ---
 title: lobbying
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # lobbying

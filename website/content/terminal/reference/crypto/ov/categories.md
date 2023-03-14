@@ -1,6 +1,6 @@
 ---
 title: categories
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # categories

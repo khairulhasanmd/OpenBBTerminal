@@ -1,6 +1,6 @@
 ---
 title: line
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # line

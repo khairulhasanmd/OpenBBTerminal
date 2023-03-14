@@ -1,6 +1,6 @@
 ---
 title: find
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # find

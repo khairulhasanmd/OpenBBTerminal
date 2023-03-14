@@ -1,6 +1,6 @@
 ---
 title: rolling
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # rolling

@@ -1,6 +1,6 @@
 ---
 title: enterprise
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # enterprise

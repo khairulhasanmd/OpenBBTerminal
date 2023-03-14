@@ -1,6 +1,6 @@
 ---
 title: cash
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # cash

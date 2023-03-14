@@ -1,6 +1,6 @@
 ---
 title: perf
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # perf

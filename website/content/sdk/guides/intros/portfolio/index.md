@@ -4,7 +4,7 @@ keywords: [portfolio, attribution, optimization, pnl, benchmark, return, volatil
 description: The Portfolio menu, and its sub-menus, are dedicated to properly explaining and optimizing your own portfolio. With features to load your own orderbook (transactions) it is possible to compare your results to that of a benchmark. For example, you are able to load both your portfolio and a benchmark (load and bench), then have the option to look into the performance compared to the benchmark asking the question "What if I invested all my money in the benchmark instead?" (perf) as well as see a wide variety of statistics and metrics (rsharpe, distr, var and metric). Next to that, with these findings you can apply optimization techniques to your portfolio through the Portfolio Optimization menu.
 ---
 
-The [Portfolio menu](/terminal/guides/intros/portfolio), from the OpenBB Terminal, is wrapped into a Python SDK layer, enabling users to programmatically work with the data in a flexible environment, fully customizable for the needs of any user. This guide will introduce the functions within the main Portfolio module, and walk through examples demonstrating how to work with a portfolio file and object.
+The [Portfolio menu](/terminal/guides/intros/portfolio), from the Finance Analysis, is wrapped into a Python SDK layer, enabling users to programmatically work with the data in a flexible environment, fully customizable for the needs of any user. This guide will introduce the functions within the main Portfolio module, and walk through examples demonstrating how to work with a portfolio file and object.
 
 ## How to Use
 
@@ -51,7 +51,7 @@ Portfolio files are spreadsheets (xlsx or csv files) containing historical trade
 1. Download the Excel file that can be used as a template [here](https://www.dropbox.com/s/03wjjf1lfkqjmtn/holdings_example.xlsx?dl=0).
 2. Move the file inside the `portfolio/holdings` folder within the [OpenBBUserData](https://docs.openbb.co/terminal/guides/advanced/data) folder and, optionally, adjust the name to your liking.
 3. Open the Excel file and remove, edit or add to the values as you desire (e.g. your own orders). This is the default template that is also loaded in with `load --example`.
-4. Open up the OpenBB Terminal, go to `portfolio` and type `load --file`. Your Excel file should then be one of the options.
+4. Open up the Finance Analysis, go to `portfolio` and type `load --file`. Your Excel file should then be one of the options.
 :::
 
 Note that the Excel sheet requires the following columns:

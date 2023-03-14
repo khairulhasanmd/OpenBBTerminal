@@ -1,6 +1,6 @@
 ---
 title: stoch
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # stoch

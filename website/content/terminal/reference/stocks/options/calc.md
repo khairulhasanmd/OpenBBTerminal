@@ -1,6 +1,6 @@
 ---
 title: calc
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # calc

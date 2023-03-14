@@ -1,6 +1,6 @@
 ---
 title: holdp
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # holdp

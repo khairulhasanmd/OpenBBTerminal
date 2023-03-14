@@ -1,6 +1,6 @@
 ---
 title: whatif
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # whatif

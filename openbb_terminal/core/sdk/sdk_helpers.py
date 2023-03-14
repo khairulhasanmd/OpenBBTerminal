@@ -1,4 +1,4 @@
-"""OpenBB Terminal SDK Helpers."""
+"""Finance Analysis SDK Helpers."""
 import json
 from inspect import signature
 from logging import Logger, getLogger
@@ -323,7 +323,7 @@ class OperationLogger:
 
 def get_sdk_imports_text() -> str:
     """Return the text for the SDK imports."""
-    sdk_imports = """\"\"\"OpenBB Terminal SDK.\"\"\"
+    sdk_imports = """\"\"\"Finance Analysis SDK.\"\"\"
 # ######### THIS FILE IS AUTO GENERATED - ANY CHANGES WILL BE VOID ######### #
 # flake8: noqa
 # pylint: disable=unused-import,wrong-import-order

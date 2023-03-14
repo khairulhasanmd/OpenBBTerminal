@@ -1,6 +1,6 @@
 ---
 title: delete
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # delete

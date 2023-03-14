@@ -1,6 +1,6 @@
 ---
 title: obv
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # obv

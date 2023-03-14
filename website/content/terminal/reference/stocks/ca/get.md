@@ -1,6 +1,6 @@
 ---
 title: get
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # get

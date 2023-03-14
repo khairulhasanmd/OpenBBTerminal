@@ -19,7 +19,7 @@ The first step in using this menu is loading a portfolio with <a href="/terminal
 1. Download the Excel file that can be used as a template [here](https://www.dropbox.com/s/03wjjf1lfkqjmtn/holdings_example.xlsx?dl=0).
 2. Move the file inside the `portfolio/holdings` folder within the [OpenBBUserData](https://docs.openbb.co/terminal/guides/advanced/data) folder and, optionally, adjust the name to your liking.
 3. Open the Excel file and remove, edit or add to the values as you desire (e.g. your own orders). This is the default template that is also loaded in with `load --example`.
-4. Open up the OpenBB Terminal, go to `portfolio` and type `load --file`. Your Excel file should then be one of the options.
+4. Open up the Finance Analysis, go to `portfolio` and type `load --file`. Your Excel file should then be one of the options.
 :::
 
 Note that the Excel sheet requires the following columns:
@@ -34,7 +34,7 @@ Note that the Excel sheet requires the following columns:
   portfolio or Sell/Withdrawal/0 to remove from the portfolio a search criteria,
   country, sector or industry.
 
-The template Excel file also has additional columns but these are _optional_. The OpenBB Terminal can figure out by itself what industry, sector, country and region belongs to the loaded in Equity. So the field can be left blank if your holdings do not include this information.
+The template Excel file also has additional columns but these are _optional_. The Finance Analysis can figure out by itself what industry, sector, country and region belongs to the loaded in Equity. So the field can be left blank if your holdings do not include this information.
 
 Continuing with the example, this results in the following:
 

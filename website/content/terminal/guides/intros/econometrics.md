@@ -131,7 +131,7 @@ To demonstrate the usage of the menu, the <a href="https://www.statsmodels.org/d
 │     bgod               Breusch-Godfrey autocorrelation tests with lags on the residuals of the regression                                                                                                          │
 │     bpag               Breusch-Pagan heteroscedasticity test on the residuals of the regression                                                                                                                    │
 │                                                                                                                                                                                                                    │
-╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── OpenBB Terminal v2.4.0 (https://openbb.co) ─╯
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── Finance Analysis v2.4.0 (https://openbb.co) ─╯
 ```
 
 Beneath `Loaded files and data columns` you can find the longley dataset and its columns. You can create an alias for this dataset with the `-a` argument as shown within the <a href="/terminal/reference/econometrics/ols" target="_blank" rel="noreferrer noopener">ols</a> command. To see a portion of this dataset, the <a href="/terminal/reference/econometrics/show" target="_blank" rel="noreferrer noopener">show</a> command can be used as shown below:
@@ -356,7 +356,7 @@ Here, the dataset is loaded in and an alias is used by using the `-a` argument. 
 │     bgod               Breusch-Godfrey autocorrelation tests with lags on the residuals of the regression                                                                                                          │
 │     bpag               Breusch-Pagan heteroscedasticity test on the residuals of the regression                                                                                                                    │
 │                                                                                                                                                                                                                    │
-╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── OpenBB Terminal v2.4.0 (https://openbb.co) ─╯                                                                      
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── Finance Analysis v2.4.0 (https://openbb.co) ─╯                                                                      
 ```
 
 To run panel regressions with <a href="/terminal/reference/econometrics/panel" target="_blank" rel="noreferrer noopener">panel</a> it is important to define both _entity_ (e.g. company) and _time_ (e.g. year). Trying to run the `panel` command would right now result in the following:
@@ -515,7 +515,7 @@ Update 'wp.year' with type 'category'
 └────────────┴──────────┘
 ```
 
-The dataset is now properly configured to allow for proper panel regressions. This can be done with the <a href="/terminal/reference/econometrics/panel" target="_blank" rel="noreferrer noopener">panel</a> command. On the panel page all regressions are performed that are available within the OpenBB Terminal. This can be either:
+The dataset is now properly configured to allow for proper panel regressions. This can be done with the <a href="/terminal/reference/econometrics/panel" target="_blank" rel="noreferrer noopener">panel</a> command. On the panel page all regressions are performed that are available within the Finance Analysis. This can be either:
 
 - `-r pols` (Pooled OLS)
 - `-r re` (Random Effects)

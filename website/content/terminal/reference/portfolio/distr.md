@@ -1,6 +1,6 @@
 ---
 title: distr
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # distr

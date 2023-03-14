@@ -1,6 +1,6 @@
 ---
 title: decompose
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # decompose

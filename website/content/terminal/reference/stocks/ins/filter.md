@@ -1,6 +1,6 @@
 ---
 title: filter
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # filter

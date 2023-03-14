@@ -1,6 +1,6 @@
 ---
 title: positions
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # positions

@@ -1,6 +1,6 @@
 ---
 title: minrisk
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # minrisk

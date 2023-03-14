@@ -1,6 +1,6 @@
 ---
 title: spacc
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # spacc

@@ -1,6 +1,6 @@
 ---
 title: lpsb
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # lpsb

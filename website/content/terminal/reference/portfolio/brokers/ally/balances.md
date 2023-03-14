@@ -1,6 +1,6 @@
 ---
 title: balances
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # balances

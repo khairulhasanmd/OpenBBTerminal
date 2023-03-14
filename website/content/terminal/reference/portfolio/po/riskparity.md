@@ -1,6 +1,6 @@
 ---
 title: riskparity
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # riskparity

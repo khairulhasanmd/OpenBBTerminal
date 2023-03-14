@@ -1,6 +1,6 @@
 ---
 title: ewf
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # ewf

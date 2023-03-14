@@ -1,6 +1,6 @@
 ---
 title: search
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # search

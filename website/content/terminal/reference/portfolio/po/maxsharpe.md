@@ -1,6 +1,6 @@
 ---
 title: maxsharpe
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # maxsharpe

@@ -1,6 +1,6 @@
 ---
 title: update
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # update

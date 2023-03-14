@@ -1,6 +1,6 @@
 ---
 title: nft
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # nft

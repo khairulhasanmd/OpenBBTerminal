@@ -1,6 +1,6 @@
 ---
 title: toppm
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # toppm

@@ -1,6 +1,6 @@
 ---
 title: rsi
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # rsi

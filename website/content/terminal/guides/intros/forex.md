@@ -1,6 +1,6 @@
 ---
 title: Forex
-keywords: [forex, currency, money, hedge, dollar, euro, pound, currencies, market, openbb terminal]
+keywords: [forex, currency, money, hedge, dollar, euro, pound, currencies, market, Finance Analysis]
 description: The Forex menu enables you to load any combination of currencies (e.g. USDEUR or JPYGBP), show current quote and historical data as well as forward rates. Furthermore, the menu has the ability to also apply Technical Analysis and Forecasting techniques.
 ---
 

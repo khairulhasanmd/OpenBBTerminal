@@ -1,6 +1,6 @@
 ---
 title: maxdecorr
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # maxdecorr

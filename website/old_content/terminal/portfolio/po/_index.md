@@ -25,11 +25,11 @@ these techniques, these templates allow the user to understand what values for e
 allow for an easy way to define the allocation.
 
 For this there are two templates that need to be set:
-- **OpenBB Parameters Template**: found in the OpenBB Terminal directory within `OpenBB Terminal/OpenBB/portfolio/parameters`
-- **OpenBB Portfolio Template**: found in the OpenBB Terminal directory within `OpenBB Terminal/OpenBB/portfolio/allocation`
+- **OpenBB Parameters Template**: found in the Finance Analysis directory within `Finance Analysis/OpenBB/portfolio/parameters`
+- **OpenBB Portfolio Template**: found in the Finance Analysis directory within `Finance Analysis/OpenBB/portfolio/allocation`
 
 If this location does not exist, use <a href="https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FOpenBB-finance%2FOpenBBTerminal%2Ftree%2Fmain%2Fportfolio" target="_blank" rel="noreferrer noopener">this link</a>
-to download the most recent versions and place the contents inside a folder named `portfolio` within the `OpenBB Terminal/OpenBB` directory.
+to download the most recent versions and place the contents inside a folder named `portfolio` within the `Finance Analysis/OpenBB` directory.
 
 ### OpenBB Parameters Template
 This template provides the user with the ability to set define values for each parameter based on the optimization
@@ -37,7 +37,7 @@ technique that is deployed. E.g. if you select `riskparity` for the `technique` 
 parameters turn <span style="color: #BEBEBE">grey</span>. This means that the parameter is irrelevant for the selected
 method.
 
-The OpenBB Terminal does, however, allow the user to run any model despite the `technique` you selected. Therefore, if
+The Finance Analysis does, however, allow the user to run any model despite the `technique` you selected. Therefore, if
 you are interested in running multiple models, consider removing the value for `technique`. Do note that this makes it
 more difficult to understand which values are used for which model.
 
@@ -295,7 +295,7 @@ To demonstrate the capabilities of the Portfolio Optimization menu, the entire <
 is used and optimized and analysed in a variety of ways. Starting by loading in the dataset, which is visible when
 you type `load` as it resides in the same directory as the earlier mentioned template:
 
-<a target="_blank" href="https://user-images.githubusercontent.com/46355364/171145309-8419bc2e-12bd-49d5-8c19-e0f80097d898.png"><img alt="Load S&P 500 File within OpenBB Terminal" src="https://user-images.githubusercontent.com/46355364/171145309-8419bc2e-12bd-49d5-8c19-e0f80097d898.png"></a>
+<a target="_blank" href="https://user-images.githubusercontent.com/46355364/171145309-8419bc2e-12bd-49d5-8c19-e0f80097d898.png"><img alt="Load S&P 500 File within Finance Analysis" src="https://user-images.githubusercontent.com/46355364/171145309-8419bc2e-12bd-49d5-8c19-e0f80097d898.png"></a>
 
 It is possible to load the parameters template here but this is not necessary as each parameter has a default
 value set regardless. However, because the Excel file provides a more structured way of presenting the choices, the

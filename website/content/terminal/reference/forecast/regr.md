@@ -1,6 +1,6 @@
 ---
 title: regr
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # regr

@@ -1,6 +1,6 @@
 ---
 title: rvol
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # rvol

@@ -1,6 +1,6 @@
 ---
 title: nco
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # nco

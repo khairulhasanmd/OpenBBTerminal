@@ -592,7 +592,7 @@ def parse_args_and_run():
     parser = argparse.ArgumentParser(
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
         prog="testing",
-        description="Integration tests for the OpenBB Terminal.",
+        description="Integration tests for the Finance Analysis.",
     )
     parser.add_argument(
         "-p",

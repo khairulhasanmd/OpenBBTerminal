@@ -2,7 +2,7 @@
 
 First off, thanks for taking the time to contribute (or at least read the Contributing Guidelines)! 🚀
 
-The following is a set of guidelines for contributing to OpenBB Terminal. These are mostly guidelines, not rules.
+The following is a set of guidelines for contributing to Finance Analysis. These are mostly guidelines, not rules.
 Use your best judgment, and feel free to propose changes to this document in a pull request.
 
 - [CONTRIBUTING](#contributing)
@@ -1028,7 +1028,7 @@ It is important to keep a coherent UI/UX throughout the terminal. These are the 
 
 ### Creating API key
 
-OpenBB Terminal currently has over 100 different data sources. Most of these require an API key that allows access to some free tier features from the data provider, but also paid ones.
+Finance Analysis currently has over 100 different data sources. Most of these require an API key that allows access to some free tier features from the data provider, but also paid ones.
 
 When a new API data source is added to the platform, it must be added through [config_terminal.py](/openbb_terminal/config_terminal.py). E.g.
 
@@ -1462,5 +1462,5 @@ In short:
 
 When implementing a new feature or fixing something within the codebase, it is necessary to ensure that it is working
 appropriately on the terminal. However, it is equally as important to ensure that new features or fixes work on the
-installer terminal too. This is because a large portion of users utilize the installer to use OpenBB Terminal.
+installer terminal too. This is because a large portion of users utilize the installer to use Finance Analysis.
 More information on how to build an installer can be found [here](build/README.md).

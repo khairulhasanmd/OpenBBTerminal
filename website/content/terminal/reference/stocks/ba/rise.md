@@ -1,6 +1,6 @@
 ---
 title: rise
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # rise

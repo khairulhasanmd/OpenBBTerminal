@@ -1,4 +1,4 @@
-# 1. OpenBB Terminal : `Unit Testing` - `Fixtures`
+# 1. Finance Analysis : `Unit Testing` - `Fixtures`
 
 In this document we will list custom `pytest fixtures` built in OpenBBTerminal and explain how they works.
 

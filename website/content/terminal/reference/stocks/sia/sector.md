@@ -1,6 +1,6 @@
 ---
 title: sector
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # sector

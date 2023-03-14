@@ -1,6 +1,6 @@
 ---
 title: ch
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # ch

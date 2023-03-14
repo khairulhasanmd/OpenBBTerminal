@@ -1,6 +1,6 @@
 ---
 title: cpis
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # cpis

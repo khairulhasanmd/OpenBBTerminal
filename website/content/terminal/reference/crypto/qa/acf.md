@@ -1,6 +1,6 @@
 ---
 title: acf
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # acf

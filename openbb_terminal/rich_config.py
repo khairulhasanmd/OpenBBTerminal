@@ -295,7 +295,7 @@ class ConsoleAndPanel:
         if kwargs and "text" in list(kwargs) and "menu" in list(kwargs):
             if not os.getenv("TEST_MODE"):
                 if obbff.ENABLE_RICH_PANEL:
-                    version = f"[param]OpenBB Terminal v{obbff.VERSION}[/param] (https://openbb.co)"
+                    version = f"[param]Finance Analysis v{obbff.VERSION}[/param] "
                     self.console.print(
                         panel.Panel(
                             "\n" + kwargs["text"],

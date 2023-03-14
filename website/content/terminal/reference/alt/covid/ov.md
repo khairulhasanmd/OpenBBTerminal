@@ -1,6 +1,6 @@
 ---
 title: ov
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # ov

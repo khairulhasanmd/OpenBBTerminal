@@ -1,6 +1,6 @@
 ---
 title: slopes
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # slopes

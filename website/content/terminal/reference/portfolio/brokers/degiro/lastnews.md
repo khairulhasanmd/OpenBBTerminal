@@ -1,6 +1,6 @@
 ---
 title: lastnews
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # lastnews

@@ -1,6 +1,6 @@
 ---
 title: bullbear
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # bullbear

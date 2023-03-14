@@ -1,6 +1,6 @@
 ---
 title: vwap
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # vwap

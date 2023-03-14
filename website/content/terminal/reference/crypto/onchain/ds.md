@@ -1,6 +1,6 @@
 ---
 title: ds
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # ds

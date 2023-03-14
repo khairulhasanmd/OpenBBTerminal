@@ -1,6 +1,6 @@
 ---
 title: stalker
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # stalker

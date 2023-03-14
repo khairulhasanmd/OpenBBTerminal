@@ -1,6 +1,6 @@
 ---
 title: Futures
-keywords: [forex, currency, money, hedge, dollar, euro, futures, future, interest, rates, forwards, commodities, bonds, treasuries, bond, gold, oil, openbb terminal]
+keywords: [forex, currency, money, hedge, dollar, euro, futures, future, interest, rates, forwards, commodities, bonds, treasuries, bond, gold, oil, Finance Analysis]
 description: The Futures menu provides historical prices and the current term structure for an asset.
 ---
 

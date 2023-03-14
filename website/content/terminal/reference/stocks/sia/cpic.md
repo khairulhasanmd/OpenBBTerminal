@@ -1,6 +1,6 @@
 ---
 title: cpic
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # cpic

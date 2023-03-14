@@ -1,6 +1,6 @@
 ---
 title: rot
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # rot

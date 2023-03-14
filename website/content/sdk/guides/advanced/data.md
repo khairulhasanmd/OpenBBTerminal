@@ -1,7 +1,7 @@
 ---
 title: Importing and Exporting Data
 sidebar_position: 3
-description: The OpenBBUserData folder's default location is the home of the system user account. By default this will be the following paths. Within the folder you can find files that you have exported as well as files that you wish to import directly into the OpenBB Terminal. For example, this could be an orderbook which you can store in OpenBBUserData/portfolio/holdings.
+description: The OpenBBUserData folder's default location is the home of the system user account. By default this will be the following paths. Within the folder you can find files that you have exported as well as files that you wish to import directly into the Finance Analysis. For example, this could be an orderbook which you can store in OpenBBUserData/portfolio/holdings.
 keywords: [export, import, data, excel, xlsx, csv, json, png, pdf, jpg, openbbuserdata, where is data exported, market data, financial data, free, openbb sdk]
 ---
 
@@ -11,7 +11,7 @@ The `OpenBBUserData` folder's default location is the home of the system user ac
 - macOS: `Macintosh HD/Users/<YOUR_USERNAME>/OpenBBUserData`
 - Windows: `C:/Users/<YOUR_USERNAME>/OpenBBUserData`
 
-Within the folder you can find files that you have exported as well as files that you wish to import directly into the OpenBB Terminal. For example, this could be an orderbook which you can store in `OpenBBUserData/portfolio/holdings`.
+Within the folder you can find files that you have exported as well as files that you wish to import directly into the Finance Analysis. For example, this could be an orderbook which you can store in `OpenBBUserData/portfolio/holdings`.
 
 <img width="1231" alt="Screen Shot 2022-10-13 at 6 45 01 PM" src="https://user-images.githubusercontent.com/85772166/195742985-19f0e420-d8f7-4fea-a145-a0243b8f2ddc.png"></img>
 

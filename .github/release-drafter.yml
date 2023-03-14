@@ -1,4 +1,4 @@
-name-template: 'OpenBB Terminal v$NEXT_MINOR_VERSION'
+name-template: 'Finance Analysis v$NEXT_MINOR_VERSION'
 tag-template: 'v$NEXT_MINOR_VERSION'
 exclude-contributors:
   - 'jmaslek'
@@ -31,4 +31,4 @@ template: |
   and join our Discord server to chat about your contribution! We want to hear about your experience!
 
   ### Links 🦋
-  [Website](https://openbb.co/), [Twitter](https://twitter.com/openbb_finance), [Linkedin](https://www.linkedin.com/company/openbb-finance), [Instagram](https://www.instagram.com/openbb.finance/), [Reddit](https://www.reddit.com/r/openbb/), [Discord](https://discord.com/invite/xPHTuHCmuV)
+  [Website](), [Twitter](https://twitter.com/openbb_finance), [Linkedin](https://www.linkedin.com/company/openbb-finance), [Instagram](https://www.instagram.com/openbb.finance/), [Reddit](https://www.reddit.com/r/openbb/), [Discord](https://discord.com/invite/xPHTuHCmuV)

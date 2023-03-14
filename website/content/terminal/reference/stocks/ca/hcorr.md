@@ -1,6 +1,6 @@
 ---
 title: hcorr
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # hcorr

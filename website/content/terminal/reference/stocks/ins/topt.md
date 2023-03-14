@@ -1,6 +1,6 @@
 ---
 title: topt
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # topt

@@ -1,6 +1,6 @@
 ---
 title: mentions
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # mentions

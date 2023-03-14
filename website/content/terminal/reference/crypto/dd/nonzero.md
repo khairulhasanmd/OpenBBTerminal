@@ -1,6 +1,6 @@
 ---
 title: nonzero
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # nonzero

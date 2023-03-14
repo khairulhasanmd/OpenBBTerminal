@@ -1,6 +1,6 @@
 ---
 title: cases
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # cases

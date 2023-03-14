@@ -1,6 +1,6 @@
 ---
 title: hma
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # hma

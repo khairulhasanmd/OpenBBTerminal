@@ -1,6 +1,6 @@
 ---
 title: oi
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # oi

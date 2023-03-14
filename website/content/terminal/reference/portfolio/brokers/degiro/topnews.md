@@ -1,6 +1,6 @@
 ---
 title: topnews
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # topnews

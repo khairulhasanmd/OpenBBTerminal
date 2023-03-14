@@ -1,6 +1,6 @@
 ---
 title: Economy
-keywords: [economy, macro, index, treasury, fred, market, econdb, index, yield, curve, economic, indicators, micro, inflation, interest rate, interest, unemploymeny, gdp, gross domestic product, openbb terminal]
+keywords: [economy, macro, index, treasury, fred, market, econdb, index, yield, curve, economic, indicators, micro, inflation, interest rate, interest, unemploymeny, gdp, gross domestic product, Finance Analysis]
 description: The Economy menu enables you to obtain market overviews, see yield curves of any country and discover sector, industry and country performance. Next to that, the databases of EconDB, FRED and Yahoo Finance can be accessed. All of this can also be further analysed within the Forecasting menu and with Quantitative Techniques.
 ---
 

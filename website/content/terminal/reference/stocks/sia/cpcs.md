@@ -1,6 +1,6 @@
 ---
 title: cpcs
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # cpcs

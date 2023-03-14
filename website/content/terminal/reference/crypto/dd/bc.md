@@ -1,6 +1,6 @@
 ---
 title: bc
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # bc

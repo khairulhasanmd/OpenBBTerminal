@@ -1,6 +1,6 @@
 ---
 title: symbol
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # symbol

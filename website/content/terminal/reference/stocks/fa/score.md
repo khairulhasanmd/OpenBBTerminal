@@ -1,6 +1,6 @@
 ---
 title: score
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # score

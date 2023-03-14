@@ -1,6 +1,6 @@
 ---
 title: yret
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # yret

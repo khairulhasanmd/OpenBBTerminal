@@ -16,7 +16,7 @@ More information on this product can be found [here](https://openbb.co/products/
 
 ## Installation
 
-The command below provides access to the core functionalities behind the [OpenBB Terminal](https://openbb.co/products/terminal).
+The command below provides access to the core functionalities behind the [Finance Analysis](https://openbb.co/products/terminal).
 
 ```python
 pip install openbb

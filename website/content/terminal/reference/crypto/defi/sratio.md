@@ -1,6 +1,6 @@
 ---
 title: sratio
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # sratio

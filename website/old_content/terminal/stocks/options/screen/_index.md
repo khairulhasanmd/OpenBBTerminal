@@ -21,7 +21,7 @@ The screener makes use of presets (.ini files) that are stored locally in the Op
 The file named `template.ini` is a blank slate and ready for experimentation. There are nearly infinite ways to configure an options search, so customize one and then share it with us on social media! Have a look at the available fields:
 
 ````
-# Author of preset: OpenBB Terminal
+# Author of preset: Finance Analysis
 # Description: This is just a sample. The user that adds the preset can add a description for what type of stocks these filters are being used.
 [FILTER]
 

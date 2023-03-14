@@ -308,7 +308,7 @@ class TerminalStyle:
         fig : plt.figure
             A matplotlib figure
         """
-        label = "OpenBB Terminal"
+        label = "Finance Analysis"
         fig.text(
             0.99,
             0.0420,

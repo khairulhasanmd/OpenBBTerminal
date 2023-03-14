@@ -1,6 +1,6 @@
 ---
 title: rename
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # rename

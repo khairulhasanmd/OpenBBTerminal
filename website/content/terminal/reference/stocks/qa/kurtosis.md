@@ -1,6 +1,6 @@
 ---
 title: kurtosis
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # kurtosis

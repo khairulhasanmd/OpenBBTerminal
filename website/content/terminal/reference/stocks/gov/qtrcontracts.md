@@ -1,6 +1,6 @@
 ---
 title: qtrcontracts
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # qtrcontracts

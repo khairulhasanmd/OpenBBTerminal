@@ -1,6 +1,6 @@
 ---
 title: holdv
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # holdv

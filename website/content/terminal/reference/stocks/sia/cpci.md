@@ -1,6 +1,6 @@
 ---
 title: cpci
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # cpci

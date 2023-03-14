@@ -1,6 +1,6 @@
 ---
 title: change
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # change

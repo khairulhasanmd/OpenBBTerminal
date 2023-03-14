@@ -1,6 +1,6 @@
 ---
 title: select
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # select

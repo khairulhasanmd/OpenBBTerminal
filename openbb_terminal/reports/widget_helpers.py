@@ -335,7 +335,7 @@ def header(
             <html lang="en" class="" data-lt-installed="true">
             <head>
                 <meta charset="UTF-8">
-                <title>OpenBB Terminal Report</title>
+                <title>Finance Analysis Report</title>
                 <meta name="robots" content="noindex">
             </head>
             <div style="display:flex; margin-bottom:1cm;">

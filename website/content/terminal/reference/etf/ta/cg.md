@@ -1,6 +1,6 @@
 ---
 title: cg
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # cg

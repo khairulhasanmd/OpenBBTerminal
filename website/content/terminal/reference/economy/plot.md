@@ -1,6 +1,6 @@
 ---
 title: plot
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # plot

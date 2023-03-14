@@ -4,7 +4,7 @@ keywords: [stocks, fundamental analysis, analysis, Behavioural, strategy, compar
 description: The Stocks menu is the high-level menu for the Public Equity asset class. It contains functions for searching and loading company market data, showing candle charts, quotes and company specifics via a large selection of sub-menus. The sub-menus break the functions down into groups based on the type of data they return. They are listed below with a short description. Refer to each sub-menu's introductory guide for a more detailed explanation of the functions within.
 ---
 
-The capabilities of the Stocks menu from the OpenBB Terminal are wrapped into a powerful SDK, enabling users to work with the data in a flexible environment that can be fully customized to meet the needs of any user. Code completion and contextual help makes it easy to use. Navigating is very similar to operating the CLI Terminal Application.
+The capabilities of the Stocks menu from the Finance Analysis are wrapped into a powerful SDK, enabling users to work with the data in a flexible environment that can be fully customized to meet the needs of any user. Code completion and contextual help makes it easy to use. Navigating is very similar to operating the CLI Terminal Application.
 
 ## How to use
 

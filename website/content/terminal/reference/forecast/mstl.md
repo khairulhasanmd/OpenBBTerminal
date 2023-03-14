@@ -1,6 +1,6 @@
 ---
 title: mstl
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # mstl

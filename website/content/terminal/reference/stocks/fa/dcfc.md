@@ -1,6 +1,6 @@
 ---
 title: dcfc
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # dcfc

@@ -1,6 +1,6 @@
 ---
 title: kc
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # kc

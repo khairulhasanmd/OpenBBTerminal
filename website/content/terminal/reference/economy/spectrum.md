@@ -1,6 +1,6 @@
 ---
 title: spectrum
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # spectrum

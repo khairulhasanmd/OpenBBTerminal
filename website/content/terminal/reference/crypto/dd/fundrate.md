@@ -1,6 +1,6 @@
 ---
 title: fundrate
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # fundrate

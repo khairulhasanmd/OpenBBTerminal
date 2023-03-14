@@ -1,7 +1,7 @@
 <!-- markdownlint-disable MD033 -->
 # OpenBB SDK
 
-OpenBB SDK gives you direct and programmatic access to all capabilities of the OpenBB Terminal.
+OpenBB SDK gives you direct and programmatic access to all capabilities of the Finance Analysis.
 You will have the necessary building blocks to create your own financial tools and applications,
 whether that be a visualization dashboard or a custom report in a Jupyter Notebook.
 

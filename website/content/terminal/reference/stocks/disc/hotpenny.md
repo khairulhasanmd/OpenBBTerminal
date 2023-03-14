@@ -1,6 +1,6 @@
 ---
 title: hotpenny
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # hotpenny

@@ -1,6 +1,6 @@
 ---
 title: fraud
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # fraud

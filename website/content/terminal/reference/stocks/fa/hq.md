@@ -1,6 +1,6 @@
 ---
 title: hq
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # hq

@@ -1,6 +1,6 @@
 ---
 title: bw
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # bw

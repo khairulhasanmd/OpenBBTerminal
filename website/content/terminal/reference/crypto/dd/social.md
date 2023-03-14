@@ -1,6 +1,6 @@
 ---
 title: social
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # social

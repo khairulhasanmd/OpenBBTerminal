@@ -1,6 +1,6 @@
 ---
 title: set
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # set

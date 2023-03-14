@@ -1,6 +1,6 @@
 ---
 title: rossidx
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # rossidx

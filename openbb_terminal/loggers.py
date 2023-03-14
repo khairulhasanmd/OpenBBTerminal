@@ -59,7 +59,7 @@ def get_app_id() -> str:
         if e.errno == 30:
             print("Please move the application into a writable location.")
             print(
-                "Note for macOS users: copy `OpenBB Terminal` folder outside the DMG."
+                "Note for macOS users: copy `Finance Analysis` folder outside the DMG."
             )
         else:
             raise e

@@ -1,6 +1,6 @@
 ---
 title: shorted
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # shorted

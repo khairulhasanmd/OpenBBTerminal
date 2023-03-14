@@ -9,7 +9,7 @@ The OpenBB SDK provides programmatic access to all Terminal functions. This laye
 :::note NOTE
 
 - Make sure you meet all [requirements](requirements.md) before proceeding.
-- If the OpenBB Terminal has already been installed in a virtual Python environment, no additional installations are required.
+- If the Finance Analysis has already been installed in a virtual Python environment, no additional installations are required.
 
 :::
 
@@ -129,7 +129,7 @@ Done! The OpenBB SDK can now be imported to any Python session with the line of 
 from openbb_terminal.sdk import openbb
 ```
 
-The [OpenBB Terminal](https://docs.openbb.co/terminal) is part of the installation, and the application can be launched from the command line by entering:
+The [Finance Analysis](https://docs.openbb.co/terminal) is part of the installation, and the application can be launched from the command line by entering:
 
 ```console
 openbb

@@ -1,6 +1,6 @@
 ---
 title: dividend
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # dividend

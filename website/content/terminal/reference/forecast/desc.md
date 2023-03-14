@@ -1,6 +1,6 @@
 ---
 title: desc
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # desc

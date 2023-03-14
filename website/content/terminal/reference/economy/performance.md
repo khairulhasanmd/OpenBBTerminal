@@ -1,6 +1,6 @@
 ---
 title: performance
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # performance

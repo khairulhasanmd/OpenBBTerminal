@@ -27,9 +27,9 @@ We provide 2 alternatives:
 
 | Parameter | Description |
 | :--- | :--- |
-| DG_TOTP_SECRET | This secret key will let OpenBB terminal generate the `OneTimePassword` for you. |
+| DG_TOTP_SECRET | This secret key will let Finance Analysis generate the `OneTimePassword` for you. |
 
-If you provide your `DG_TOTP_SECRET`, you won't have to type your `OneTimePassword`, OpenBB terminal will generate it for you
+If you provide your `DG_TOTP_SECRET`, you won't have to type your `OneTimePassword`, Finance Analysis will generate it for you
 at each connection.
 
 `DG_TOTP_SECRET` is the text representation of the `QRCODE` that Degiro's provide you when you enable 2FA.

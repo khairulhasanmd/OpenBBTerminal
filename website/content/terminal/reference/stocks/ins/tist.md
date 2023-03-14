@@ -1,6 +1,6 @@
 ---
 title: tist
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # tist

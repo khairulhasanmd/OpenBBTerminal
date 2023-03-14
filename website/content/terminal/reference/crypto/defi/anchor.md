@@ -1,6 +1,6 @@
 ---
 title: anchor
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # anchor

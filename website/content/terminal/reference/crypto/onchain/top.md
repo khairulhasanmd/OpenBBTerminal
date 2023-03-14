@@ -1,6 +1,6 @@
 ---
 title: top
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # top

@@ -277,15 +277,15 @@ First, search the open issues for another report. If one already exists, attach 
 
 </details>
 
-<details><summary>How can I get help with OpenBB Terminal?</summary>
+<details><summary>How can I get help with Finance Analysis?</summary>
 
-You can get help with OpenBB Terminal by joining our [Discord server](https://openbb.co/discord) or contact us in our support form [here](https://openbb.co/support).
+You can get help with Finance Analysis by joining our [Discord server](https://openbb.co/discord) or contact us in our support form [here](https://openbb.co/support).
 
 </details>
 
-<details><summary>How can I give feedback about the OpenBB Terminal, or request specific functionality?</summary>
+<details><summary>How can I give feedback about the Finance Analysis, or request specific functionality?</summary>
 
-Being an open source platform that wishes to tailor to the needs of any type of investor, we highly encourage anyone to share with us their experience and/or how we can further improve the OpenBB Terminal. This can be anything from a very small bug, a new feature, or the implementation of a highly advanced Machine Learning model.
+Being an open source platform that wishes to tailor to the needs of any type of investor, we highly encourage anyone to share with us their experience and/or how we can further improve the Finance Analysis. This can be anything from a very small bug, a new feature, or the implementation of a highly advanced Machine Learning model.
 
 You are able to directly send us information about a bug or a question/suggestion from inside the terminal by using the `support` command which is available everywhere in the terminal. Here you can select which command you want to report a bug on, ask a question or make a suggestion. After entering `support`, when you press `ENTER` (⏎), you are taken to the Support form which is automatically filled with your input. You are only required to include the type (e.g. bug, suggestion or question) and message in the form, although this can also be set directly from inside the terminal (see `support -h`).
 

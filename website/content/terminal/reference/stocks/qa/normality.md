@@ -1,6 +1,6 @@
 ---
 title: normality
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # normality

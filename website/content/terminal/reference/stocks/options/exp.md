@@ -1,6 +1,6 @@
 ---
 title: exp
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # exp

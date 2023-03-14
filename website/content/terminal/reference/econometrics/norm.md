@@ -1,6 +1,6 @@
 ---
 title: norm
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # norm

@@ -1,6 +1,6 @@
 ---
 title: data
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # data

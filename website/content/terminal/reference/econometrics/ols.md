@@ -1,6 +1,6 @@
 ---
 title: ols
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # ols

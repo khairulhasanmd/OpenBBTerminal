@@ -1,6 +1,6 @@
 ---
 title: team
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # team

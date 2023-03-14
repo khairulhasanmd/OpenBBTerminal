@@ -1,6 +1,6 @@
 ---
 title: ldapps
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # ldapps

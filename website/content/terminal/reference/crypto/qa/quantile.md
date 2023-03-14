@@ -1,6 +1,6 @@
 ---
 title: quantile
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # quantile

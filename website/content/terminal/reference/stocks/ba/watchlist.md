@@ -1,6 +1,6 @@
 ---
 title: watchlist
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # watchlist

@@ -1,6 +1,6 @@
 ---
 title: recom
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # recom

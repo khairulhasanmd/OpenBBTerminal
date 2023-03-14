@@ -1,6 +1,6 @@
 ---
 title: curve
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # curve

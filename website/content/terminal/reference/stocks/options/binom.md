@@ -1,6 +1,6 @@
 ---
 title: binom
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # binom

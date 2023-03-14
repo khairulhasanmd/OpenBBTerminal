@@ -1,6 +1,6 @@
 ---
 title: tob
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # tob

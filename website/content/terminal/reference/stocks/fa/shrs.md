@@ -1,6 +1,6 @@
 ---
 title: shrs
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # shrs

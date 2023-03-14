@@ -1,6 +1,6 @@
 ---
 title: tx
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # tx

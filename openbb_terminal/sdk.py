@@ -1,4 +1,4 @@
-"""OpenBB Terminal SDK."""
+"""Finance Analysis SDK."""
 # ######### THIS FILE IS AUTO GENERATED - ANY CHANGES WILL BE VOID ######### #
 # flake8: noqa
 # pylint: disable=unused-import,wrong-import-order

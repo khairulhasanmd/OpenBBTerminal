@@ -1,6 +1,6 @@
 ---
 title: liquidations
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # liquidations

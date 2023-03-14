@@ -2,7 +2,7 @@
 title: Settings API Keys
 sidebar_position: 3
 description: API (Application Programming Interface) keys are access credentials for accessing data from a particular source. They are a string of random characters assigned, by the data provider, to an individual account. Most vendors offer a free tier requiring only a valid email address. Each key is entered into the Terminal from the `/keys` menu, using the syntax described below. The `--help` dialogue for each source will also display the expected inputs.
-keywords: [api, keys, api keys, data provider, data, free, alpha vantage, fred, iex, twitter, degiro, binance, coinglass, polygon, intrinio, openbb terminal]
+keywords: [api, keys, api keys, data provider, data, free, alpha vantage, fred, iex, twitter, degiro, binance, coinglass, polygon, intrinio, Finance Analysis]
 ---
 ## The Keys Menu
 
@@ -105,7 +105,7 @@ This section covers all API keys listed above and include detailed instructions 
 
 ![AlphaVantage](https://user-images.githubusercontent.com/46355364/207820936-46c2ba00-81ff-4cd3-98a4-4fa44412996f.png)
 
-Fill out the form, pass Captcha, and click on, "GET FREE API KEY". The issued key can be entered into the OpenBB Terminal with:
+Fill out the form, pass Captcha, and click on, "GET FREE API KEY". The issued key can be entered into the Finance Analysis with:
 
 ```console
 /keys/av REPLACE_WITH_KEY
@@ -122,7 +122,7 @@ Fill out the form, pass Captcha, and click on, "GET FREE API KEY". The issued ke
 
 ![Binance](https://user-images.githubusercontent.com/46355364/207839805-f71cf12a-62d2-41cb-ba19-0c35917abc40.png)
 
-These instructions should provide clear guidance for obtaining an API Key. Enter the issued credentials into the OpenBB Terminal with:
+These instructions should provide clear guidance for obtaining an API Key. Enter the issued credentials into the Finance Analysis with:
 
 ```console
 /keys/binance -k REPLACE_WITH_KEY -s REPLACE_WITH_SECRET
@@ -147,7 +147,7 @@ After creating an account and verifying the email address, get the value for the
 
 ![Get Bitquery API Key](https://user-images.githubusercontent.com/46355364/207840833-35c1b12c-9b4b-43fe-a33e-f7b92c43a011.png)
 
-Enter this API key into the OpenBB Terminal by typing:
+Enter this API key into the Finance Analysis by typing:
 
 ```console
 /keys/bitquery REPLACE_WITH_KEY
@@ -172,7 +172,7 @@ Once the account has been created, copy the API key displayed within the dashboa
 
 ![CoinMarketCap](https://user-images.githubusercontent.com/46355364/207831705-e9f95018-bba7-49a9-b057-3443bc839861.png)
 
-Enter the API key into the OpenBB Terminal by typing:
+Enter the API key into the Finance Analysis by typing:
 
 ```console
 /keys/cmc REPLACE_WITH_KEY
@@ -189,7 +189,7 @@ Enter the API key into the OpenBB Terminal by typing:
 
 ![Coinbase](https://user-images.githubusercontent.com/46355364/207841901-647f0aef-0c74-454d-b99e-367d784259f0.png)
 
-Follow the instructions to obtain the credentials for the specific account. Enter the three values into the OpenBB Terminal by typing:
+Follow the instructions to obtain the credentials for the specific account. Enter the three values into the Finance Analysis by typing:
 
 ```console
 /keys/coinbase -k REPLACE_WITH_KEY -s REPLACE_WITH_SECRET -p REPLACE_WITH_PASSPHRASE
@@ -210,7 +210,7 @@ Click, "Log in", and then sign up for an account. This opens the page:
 
 ![Coinglass](https://user-images.githubusercontent.com/46355364/207844637-a9321889-c4d8-4d44-95fe-a6288a17ad19.png)
 
-With the account created, find the assigned API key within the account profile page. Enter this value into the OpenBB Terminal by typing:
+With the account created, find the assigned API key within the account profile page. Enter this value into the Finance Analysis by typing:
 
 ```console
 /keys/coinglass REPLACE_WITH_KEY
@@ -231,7 +231,7 @@ Click on, [Sign up](https://cryptopanic.com/accounts/signup/?next=/developers/ap
 
 ![Crypto Panic](https://user-images.githubusercontent.com/46355364/207848971-3e4771b7-1faa-45fe-955f-81bd736b16b7.png)
 
-Enter that value in the OpenBB Terminal by typing:
+Enter that value in the Finance Analysis by typing:
 
 ```console
 /keys/cpanic REPLACE_WITH_KEY
@@ -269,7 +269,7 @@ Enter this into the terminal with:
 
 ![Degiro](https://user-images.githubusercontent.com/46355364/207838353-001d350c-872c-4770-a586-fb21318122eb.png)
 
-Click on, "Open an account", and then go through the registration process. After setting up the account, the login credentials can be entered in the OpenBB Terminal with:
+Click on, "Open an account", and then go through the registration process. After setting up the account, the login credentials can be entered in the Finance Analysis with:
 
 ```console
 /keys/degiro -u USERNAME -p PASSWORD 
@@ -296,7 +296,7 @@ Once registered, the API Key will be next to "API TOKEN".
 
 ![EODHD](https://user-images.githubusercontent.com/46355364/207849462-37471270-929a-45c5-a164-a84249b19231.png)
 
-Enter this string into the OpenBB Terminal by typing:
+Enter this string into the Finance Analysis by typing:
 
 ```console
 /keys/eodhd REPLACE_WITH_KEY
@@ -321,7 +321,7 @@ Once the account has been created, find the API key in the account dashboard.
 
 ![Finnhub](https://user-images.githubusercontent.com/46355364/207832601-62007d95-410c-4d03-a5a3-b177d1894a4c.png)
 
-Add this key to the OpenBB Terminal by entering:
+Add this key to the Finance Analysis by entering:
 
 ```console
 /keys/finnhub REPLACE_WITH_KEY
@@ -346,7 +346,7 @@ With an account created, sign in and navigate to the Dashboard, which shows the 
 
 ![FinancialModelingPrep](https://user-images.githubusercontent.com/46355364/207823170-dd8191db-e125-44e5-b4f3-2df0e115c91d.png)
 
-Enter the key into the OpenBB Terminal with:
+Enter the key into the Finance Analysis with:
 
 ```console
 /keys/fmp REPLACE_WITH_KEY
@@ -375,7 +375,7 @@ Fill in the box for information about the use-case for FRED, and by clicking, "R
 
 ![FRED](https://user-images.githubusercontent.com/46355364/207828032-0a32d3b8-1378-4db2-9064-aa1eb2111632.png)
 
-Enter the API key into the OpenBB Terminal with:
+Enter the API key into the Finance Analysis with:
 
 ```console
 /keys/fred REPLACE_WITH_KEY
@@ -400,7 +400,7 @@ Select, "New GitHub App":
 
 ![GitHub](https://user-images.githubusercontent.com/46355364/207847383-d24416c6-18be-43f2-ae7c-455e8372a6ed.png)
 
-After creating the app, the key will be issued. Enter this token into the OpenBB Terminal with:
+After creating the app, the key will be issued. Enter this token into the Finance Analysis with:
 
 ```console
 /keys/github REPLACE_WITH_KEY
@@ -425,7 +425,7 @@ After creating an account, navigate to the [account settings](https://studio.gla
 
 ![Glassnode](https://user-images.githubusercontent.com/46355364/207843950-5f33f37d-0203-4302-a67f-198808f18e06.png)
 
-Enter this key in the OpenBB terminal with:
+Enter this key in the Finance Analysis with:
 
 ```console
 /keys/glassnode REPLACE_WITH_KEY
@@ -454,7 +454,7 @@ After completing the sign-up process, the API Keyis found under the, "Access & S
 
 ![IEX Cloud](https://user-images.githubusercontent.com/46355364/207833540-c1e25500-22e9-43c3-a89e-b05dd446f2a5.png)
 
-Add this API key to the OpenBB Terminal by entering:
+Add this API key to the Finance Analysis by entering:
 
 ```console
 /keys/iex REPLACE_WITH_KEY
@@ -471,7 +471,7 @@ Add this API key to the OpenBB Terminal by entering:
 
 ![Intrinio](https://user-images.githubusercontent.com/85772166/219207556-fcfee614-59f1-46ae-bff4-c63dd2f6991d.png)
 
-An API key will be issued with a subscription. Find the token value within the account dashboard, and enter it into the OpenBB Terminal with:
+An API key will be issued with a subscription. Find the token value within the account dashboard, and enter it into the Finance Analysis with:
 
 ```console
 /keys/intrinio REPLACE_WITH_KEY
@@ -496,7 +496,7 @@ After creating the account, navigate to the [account page](https://messari.io/ac
 
 ![Messari](https://user-images.githubusercontent.com/46355364/207848324-ade5bede-8e6b-4b87-bdec-eade3217c0d8.png)
 
-Copy the API key and add it to the OpenBB Terminal by entering:
+Copy the API key and add it to the Finance Analysis by entering:
 
 ```console
 /keys/messari REPLACE_WITH_KEY
@@ -521,7 +521,7 @@ Register for an account and the next screen will provide the API Key.
 
 ![News API](https://user-images.githubusercontent.com/46355364/207828736-f0fce53b-f302-4456-adf9-8d50ac41fbe2.png)
 
-Add this API key into the OpenBB Terminal by entering:
+Add this API key into the Finance Analysis by entering:
 
 ```console
 /keys/news REPLACE_WITH_KEY
@@ -542,7 +542,7 @@ After creating an account, follow the steps below.
 
 ![Oanda](https://user-images.githubusercontent.com/46355364/207839246-eb40f093-b583-4edd-b178-99fe399bfb66.png)
 
-Upon completion of the account setup, enter the credentials into the OpenBB Terminal using the syntax:
+Upon completion of the account setup, enter the credentials into the Finance Analysis using the syntax:
 
 ```console
 /keys/oanda -a REPLACE_WITH_ACCOUNT -t REPLACE_WITH_TOKEN --account_type REPLACE_WITH_LIVE_OR_PRACTICE
@@ -567,7 +567,7 @@ After signing up, the API Key is found at the bottom of the account dashboard pa
 
 ![Polygon](https://user-images.githubusercontent.com/46355364/207826258-b1f318fa-fd9c-41d9-bf5c-fe16722e6601.png)
 
-Enter the key into the OpenBB Terminal by typing:
+Enter the key into the Finance Analysis by typing:
 
 ```console
 /keys/polygon REPLACE_WITH_KEY
@@ -592,7 +592,7 @@ Follow the sign-up instructions, and upon completion the API key will be assigne
 
 ![Quandl](https://user-images.githubusercontent.com/46355364/207824664-3c82befb-9c69-42df-8a82-510d85c19a97.png)
 
-Enter the key into the OpenBB Terminal with:
+Enter the key into the Finance Analysis with:
 
 ```console
 /keys/quandl REPLACE_WITH_KEY
@@ -621,7 +621,7 @@ Click on, "Read the full API terms and sign up for usage", and fill out the form
 
 ![Reddit](https://user-images.githubusercontent.com/46355364/207834850-32a0d4c8-9990-4919-94e3-abad1487a3bd.png)
 
-After submitting the form, check for a confirmation email. The credentials will be displayed [here](https://old.reddit.com/prefs/apps/), enter them into the OpenBB Terminal in one line:
+After submitting the form, check for a confirmation email. The credentials will be displayed [here](https://old.reddit.com/prefs/apps/), enter them into the Finance Analysis in one line:
 
 ```console
 /keys/reddit -i REPLACE_WITH_CLIENT_ID -s REPLACE_WITH_CLIENT_SECRET -u REPLACE_WITH_REDDIT_USERNAME -p REPLACE_WITH_REDDIT_PASSWORD -a REPLACE_WITH_USER_AGENT
@@ -638,7 +638,7 @@ After submitting the form, check for a confirmation email. The credentials will 
 
 ![Robinhood](https://user-images.githubusercontent.com/46355364/207838058-a2311632-6459-4cfd-bc0a-639ee3931574.png)
 
-After registering for an account, it can be added to the OpenBB Terminal with:
+After registering for an account, it can be added to the Finance Analysis with:
 
 ```console
 /keys/rb -u REPLACE_WITH_USERNAME -p REPLACE_WITH_PASSWORD
@@ -663,7 +663,7 @@ Navigate to the [account dashboard](https://app.santiment.net/account#api-keys) 
 
 ![Santiment](https://user-images.githubusercontent.com/46355364/207849839-31d1d0a7-6936-4ebd-a7f8-1292f6317b07.png)
 
-Add it to the OpenBB Terminal by entering:
+Add it to the Finance Analysis by entering:
 
 ```console
 /keys/santiment REPLACE_WITH_KEY
@@ -688,7 +688,7 @@ Once created, connect a wallet to complete minting the NFT license. The API key 
 
 ![ShroomDK](https://user-images.githubusercontent.com/46355364/207850380-b59554af-1e65-4616-921d-e02c9ecf1aad.png)
 
-Enter it into the OpenBB Terminal by typing:
+Enter it into the Finance Analysis by typing:
 
 ```console
 /keys/shroom REPLACE_WITH_KEY
@@ -713,7 +713,7 @@ Once logged in, navigate to the "Developers" tab and copy the API key.
 
 ![Stocksera](https://user-images.githubusercontent.com/46355364/207854224-e5ddace0-15d1-491c-b616-263cca0bef02.png)
 
-Add the key to the OpenBB Terminal by entering:
+Add the key to the Finance Analysis by entering:
 
 ```console
 /keys/stocksera REPLACE_WITH_KEY
@@ -738,7 +738,7 @@ Verify the email address, and then navigate go to the "API" tab and copy the API
 
 ![Token Terminal](https://user-images.githubusercontent.com/46355364/207851035-71ea3eff-a11f-4835-8592-c07b3aa3f800.png)
 
-Add the key to the OpenBB Terminal by typing:
+Add the key to the Finance Analysis by typing:
 
 ```console
 /keys/tokenterminal REPLACE_WITH_KEY
@@ -755,7 +755,7 @@ Add the key to the OpenBB Terminal by typing:
 
 ![Tradier](https://user-images.githubusercontent.com/46355364/207829178-a8bba770-f2ea-4480-b28e-efd81cf30980.png)
 
-Click on, "Open Account", to start the sign-up process. After the account has been setup, navigate to [Tradier Broker Dash](https://dash.tradier.com/login?redirect=settings.api) and create the application. Request a sandbox access token, and enter this key into the OpenBB Terminal with:
+Click on, "Open Account", to start the sign-up process. After the account has been setup, navigate to [Tradier Broker Dash](https://dash.tradier.com/login?redirect=settings.api) and create the application. Request a sandbox access token, and enter this key into the Finance Analysis with:
 
 ```console
 /keys/tradier REPLACE_WITH_KEY
@@ -789,7 +789,7 @@ After creating the account, click on, "Create", to issue the API Key.
 
 ![Whale Alert](https://user-images.githubusercontent.com/46355364/207843214-20232465-9a52-4b66-b01a-0b8cecbdd612.png)
 
-Enter the key into the OpenBB Terminal by typing:
+Enter the key into the Finance Analysis by typing:
 
 ```console
 /keys/walert REPLACE_WITH_KEY

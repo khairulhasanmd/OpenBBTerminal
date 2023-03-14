@@ -1,6 +1,6 @@
 ---
 title: psi
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # psi

@@ -1,6 +1,6 @@
 ---
 title: dupont
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # dupont

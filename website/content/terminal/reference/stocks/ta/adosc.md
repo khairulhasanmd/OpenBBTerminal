@@ -1,6 +1,6 @@
 ---
 title: adosc
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # adosc

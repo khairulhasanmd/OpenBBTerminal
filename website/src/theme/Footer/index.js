@@ -286,7 +286,7 @@ const FOOTER_CONTENT = {
       submenus: [
         {
           href: "https://openbb.co/products/terminal",
-          label: "OpenBB Terminal",
+          label: "Finance Analysis",
         },
         {
           href: "https://docs.openbb.co/terminal",

@@ -1,8 +1,8 @@
 ---
 sidebar_position: 1
 title: Introduction
-keywords: [getting started, openbb, api, beginner guide, how to use openbb, openbb keys, openbb terminal, introduction, intro, how-to, how to, openbb, terminal]
-description: The OpenBB Documentation provides guidance on how to use the OpenBB Terminal, a free, custom built financial terminal that will help you make more informed decisions, faster.
+keywords: [getting started, openbb, api, beginner guide, how to use openbb, openbb keys, Finance Analysis, introduction, intro, how-to, how to, openbb, terminal]
+description: The OpenBB Documentation provides guidance on how to use the Finance Analysis, a free, custom built financial terminal that will help you make more informed decisions, faster.
 ---
 
 import Card from "@site/src/components/General/Card";
@@ -13,7 +13,7 @@ Want to contribute? Check out our [CONTRIBUTING GUIDELINES](https://github.com/O
 
 ---
 
-**The OpenBB Terminal is Free and Open-Source (FOSS)**
+**The Finance Analysis is Free and Open-Source (FOSS)**
 
 <div className="grid-child">
 
@@ -32,7 +32,7 @@ Want to contribute? Check out our [CONTRIBUTING GUIDELINES](https://github.com/O
 	investment research. By leveraging free API tiers, we can allow users to have
 	access to a vast range of information for free. On the other hand, we want users
 	that are willing to subscribe to premium API keys from certain data providers to
-	be able to take advantage of that on OpenBB Terminal - this is where we see a
+	be able to take advantage of that on Finance Analysis - this is where we see a
 	monetization opportunity, a revenue share with data providers for connecting our
 	users to their resources."
 />
@@ -58,7 +58,7 @@ Want to contribute? Check out our [CONTRIBUTING GUIDELINES](https://github.com/O
 
 ---
 
-Want to learn how to install the OpenBB Terminal? Check out our [Installation](/terminal/quickstart/installation) guide.
+Want to learn how to install the Finance Analysis? Check out our [Installation](/terminal/quickstart/installation) guide.
 
 Want to know how to import and export data? Check out our [Data Import/Export](/terminal/guides/advanced/data)
 

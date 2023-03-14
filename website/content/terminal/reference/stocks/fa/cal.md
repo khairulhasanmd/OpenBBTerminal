@@ -1,6 +1,6 @@
 ---
 title: cal
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # cal

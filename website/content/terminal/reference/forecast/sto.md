@@ -1,6 +1,6 @@
 ---
 title: sto
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # sto

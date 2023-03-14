@@ -1,6 +1,6 @@
 ---
 title: rmv
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # rmv

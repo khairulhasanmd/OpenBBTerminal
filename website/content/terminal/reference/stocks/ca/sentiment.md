@@ -1,6 +1,6 @@
 ---
 title: sentiment
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # sentiment

@@ -4,7 +4,7 @@ keywords: [stocks, discovery, disc, menu, submenu, pipo, fipo, gainers, losers, 
 description: Introducing the Discovery menu, within the Stocks menu. This guide will empower the user to get the most out of this set of features.
 ---
 
-The Disc module provides programmatic access to the commands from within the OpenBB Terminal. Import the OpenBB SDK module, and then access the functions similarly to how the Terminal menus are navigated. The code completion will be activated upon entering `.`, after, `openbb.disc`
+The Disc module provides programmatic access to the commands from within the Finance Analysis. Import the OpenBB SDK module, and then access the functions similarly to how the Terminal menus are navigated. The code completion will be activated upon entering `.`, after, `openbb.disc`
 ​
 
 ## How to Use

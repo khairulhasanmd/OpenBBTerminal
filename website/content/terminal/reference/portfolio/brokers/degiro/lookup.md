@@ -1,6 +1,6 @@
 ---
 title: lookup
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # lookup

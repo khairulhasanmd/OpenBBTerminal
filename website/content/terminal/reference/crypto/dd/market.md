@@ -1,6 +1,6 @@
 ---
 title: market
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # market

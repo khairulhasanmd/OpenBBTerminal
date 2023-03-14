@@ -1,6 +1,6 @@
 ---
 title: rwd
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # rwd

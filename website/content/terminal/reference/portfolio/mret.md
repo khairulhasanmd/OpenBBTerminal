@@ -1,6 +1,6 @@
 ---
 title: mret
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # mret

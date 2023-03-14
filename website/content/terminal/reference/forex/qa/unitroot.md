@@ -1,6 +1,6 @@
 ---
 title: unitroot
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # unitroot

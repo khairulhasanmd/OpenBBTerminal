@@ -1,6 +1,6 @@
 ---
 title: group
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # group

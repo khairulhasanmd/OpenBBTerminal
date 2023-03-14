@@ -1,6 +1,6 @@
 ---
 title: active
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # active

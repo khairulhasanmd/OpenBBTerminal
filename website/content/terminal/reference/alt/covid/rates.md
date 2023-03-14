@@ -1,6 +1,6 @@
 ---
 title: rates
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # rates

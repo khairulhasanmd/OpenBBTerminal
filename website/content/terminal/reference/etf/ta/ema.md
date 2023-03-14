@@ -1,6 +1,6 @@
 ---
 title: ema
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # ema

@@ -1,6 +1,6 @@
 ---
 title: blop
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # blop

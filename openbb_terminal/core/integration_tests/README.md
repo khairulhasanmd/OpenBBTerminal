@@ -1,6 +1,6 @@
-# OpenBB Terminal : `Integration Testing`
+# Finance Analysis : `Integration Testing`
 
-This document is part of the `OpenBB Terminal` library documentation.
+This document is part of the `Finance Analysis` library documentation.
 
 It aims to provide necessary information in order to:
 

@@ -1,6 +1,6 @@
 ---
 title: ftd
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # ftd

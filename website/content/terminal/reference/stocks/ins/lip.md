@@ -1,6 +1,6 @@
 ---
 title: lip
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # lip

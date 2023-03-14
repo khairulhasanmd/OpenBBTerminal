@@ -1,6 +1,6 @@
 ---
 title: derivatives
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # derivatives

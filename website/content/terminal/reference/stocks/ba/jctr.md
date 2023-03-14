@@ -1,6 +1,6 @@
 ---
 title: jctr
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # jctr

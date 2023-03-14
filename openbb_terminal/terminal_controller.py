@@ -357,7 +357,7 @@ class TerminalController(BaseController):
     @staticmethod
     def call_survey(_) -> None:
         """Process survey command."""
-        webbrowser.open("https://openbb.co/survey")
+        webbrowser.open("")
 
     def call_update(self, _):
         """Process update command."""
@@ -365,8 +365,7 @@ class TerminalController(BaseController):
             self.update_success = not update_terminal()
         else:
             console.print(
-                "Find the most recent release of the OpenBB Terminal here: "
-                "https://openbb.co/products/terminal#get-started\n"
+                "Find the most recent release of the Finance Analysis here: "
             )
 
     def call_account(self, _):
@@ -500,9 +499,9 @@ class TerminalController(BaseController):
 
     def call_intro(self, _):
         """Process intro command."""
-        console.print(panel.Panel("[purple]Welcome to the OpenBB Terminal.[/purple]"))
+        console.print(panel.Panel("[purple]Welcome to the Finance Analysis.[/purple]"))
         console.print(
-            "\nThe following walkthrough will guide you towards making the most out of the OpenBB Terminal.\n\n"
+            "\nThe following walkthrough will guide you towards making the most out of the Finance Analysis.\n\n"
             "Press Enter to continue or 'q' followed by Enter to exit."
         )
         if input("") == "q":
@@ -538,7 +537,7 @@ class TerminalController(BaseController):
 
         console.print(panel.Panel("[purple]#3 - Setting API Keys[/purple]"))
         console.print(
-            "\nThe OpenBB Terminal does not own any of the data you have access to.\n\n"
+            "\nThe Finance Analysis does not own any of the data you have access to.\n\n"
             "Instead, we provide the infrastructure to access over 100 different data sources "
             "from a single location.\n\n"
             "Thus, it is necessary for each user to set their own API keys for the various third party sources\n\n"
@@ -1239,7 +1238,7 @@ def parse_args_and_run():
     parser = argparse.ArgumentParser(
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
         prog="terminal",
-        description="The OpenBB Terminal.",
+        description="The Finance Analysis.",
     )
     parser.add_argument(
         "-d",

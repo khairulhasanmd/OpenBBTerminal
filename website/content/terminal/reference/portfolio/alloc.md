@@ -1,6 +1,6 @@
 ---
 title: alloc
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # alloc

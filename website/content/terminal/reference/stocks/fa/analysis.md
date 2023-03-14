@@ -1,6 +1,6 @@
 ---
 title: analysis
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # analysis

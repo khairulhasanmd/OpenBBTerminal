@@ -1,16 +1,16 @@
 ---
 title: Basics
-description: The OpenBB Terminal is a modern investment research platform for everyone. It is a desktop application that allows you to access all the data and tools you need to make better investment decisions.
-keywords: [basics, installation, commands, menus, your own data, introduction, openbb terminal, explanation, basic usage, usage, how to]
+description: The Finance Analysis is a modern investment research platform for everyone. It is a desktop application that allows you to access all the data and tools you need to make better investment decisions.
+keywords: [basics, installation, commands, menus, your own data, introduction, Finance Analysis, explanation, basic usage, usage, how to]
 ---
 
-The OpenBB Terminal is based off the <a href="https://en.wikipedia.org/wiki/Command-line_interface" target="_blank" rel="noreferrer noopener">Command Line Interface (CLI)</a>
+The Finance Analysis is based off the <a href="https://en.wikipedia.org/wiki/Command-line_interface" target="_blank" rel="noreferrer noopener">Command Line Interface (CLI)</a>
 which is installed by default on every computer. By opening the application you have installed from the [Installation Page](/terminal/quickstart/installation),
 you are greeted with the following interface:
 
 <img width="800" alt="image" src="https://user-images.githubusercontent.com/46355364/218973939-deb992e3-52cc-400f-a00f-4d9addbcedd4.png"></img>
 
-The OpenBB Terminal is centered around keyboard input. To navigate and perform analysis you will have to type in the name of the command followed by an `ENTER` (⏎). If you wish to see information about the OpenBB Terminal you can do so by typing `about` and then press `ENTER` (⏎). As you are typing, you will notice that you receive suggestions, by using the `DOWN` (⌄) arrow and pressing `ENTER` (⏎) you can select the command and execute it.
+The Finance Analysis is centered around keyboard input. To navigate and perform analysis you will have to type in the name of the command followed by an `ENTER` (⏎). If you wish to see information about the Finance Analysis you can do so by typing `about` and then press `ENTER` (⏎). As you are typing, you will notice that you receive suggestions, by using the `DOWN` (⌄) arrow and pressing `ENTER` (⏎) you can select the command and execute it.
 
 Throughout the entire terminal, the same set of colors are used which all share the same representation. This is structured as follows:
 
@@ -28,7 +28,7 @@ Menus, depicted in <b><span style={{color:"#005CA9"}}>Dark Blue</span></b>, take
 
 Depending on the menu you are in, you are presented with a new set of commands and menus you can select. There are interactions in place between each menu. For example, when selecting a company within the `stocks` menu, the terminal will remember your selection when you visit the `fa` or `options` menu. See [Introduction to Stocks](/terminal/guides/intros/stocks).
 
-:::note **Pro tip:** you can quickly jump between menus by using a forward slash (`/`). For example, if I want to access the options menu, You can type `/stocks/options` to instantly arrive at this menu. You can do this from any location within the OpenBB Terminal!
+:::note **Pro tip:** you can quickly jump between menus by using a forward slash (`/`). For example, if I want to access the options menu, You can type `/stocks/options` to instantly arrive at this menu. You can do this from any location within the Finance Analysis!
 :::
 
 ### Explanation of Commands
@@ -113,10 +113,10 @@ We can check that this period has changed by looking into the <a href="https://w
 As mentioned in the <a href="#explanation-of-menus">Explanation of Menus</a>, some information also transfers over to other menus and this includes the loaded market data from <a href="/terminal/reference/stocks/load" target="_blank" rel="noreferrer noopener">load</a>. So, if you would visit the `ta` menu (which stands for <a href="https://www.investopedia.com/terms/t/technicalanalysis.asp" target="_blank" rel="noreferrer noopener">Technical Analysis</a>) you will see that, by running any command, the selected period above is depicted again. Return to the Stocks menu again by using `q` and use it again to return to the home screen which can be shown with `?`.
 
 ### Expanding the Terminal with API keys
-The OpenBB Terminal is built on a lot of different data sources. The example above collects data from Yahoo Finance. This could be undesirable and therefore we allow for a variety of different data sources. Think of Polygon, IEX Cloud, Alpha Vantage and Binance to name a few. Some of these sources require you to set an API Key to connect with their data.
+The Finance Analysis is built on a lot of different data sources. The example above collects data from Yahoo Finance. This could be undesirable and therefore we allow for a variety of different data sources. Think of Polygon, IEX Cloud, Alpha Vantage and Binance to name a few. Some of these sources require you to set an API Key to connect with their data.
 
 :::note Setting API Keys
-For an elaborate explanation of defining API keys to greatly extend the capabilities of the OpenBB Terminal, please have a look [**here**](/terminal/guides/advanced/api-keys).
+For an elaborate explanation of defining API keys to greatly extend the capabilities of the Finance Analysis, please have a look [**here**](/terminal/guides/advanced/api-keys).
 :::
 
 This becomes apparent when you receive a message like the following:
@@ -156,7 +156,7 @@ Therefore, you need to acquire an API key from FinnHub through the website and e
 
 ### Importing and exporting data
 
-Any type of data that you see within the OpenBB Terminal, you will be able to export to a variety of files like xlsx, csv and json.
+Any type of data that you see within the Finance Analysis, you will be able to export to a variety of files like xlsx, csv and json.
 
 :::note The OpenBBUserData Folder
 All of the below examples are stored in the OpenBBUserData folder. This also applies to when you wish to import files, as is for example required within the [Portfolio menu](/terminal/guides/intros/portfolio). To find more information about this folder please have a look [**here**](/terminal/guides/advanced/data).

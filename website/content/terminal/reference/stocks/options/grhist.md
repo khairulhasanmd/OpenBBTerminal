@@ -1,6 +1,6 @@
 ---
 title: grhist
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # grhist

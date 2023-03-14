@@ -1,6 +1,6 @@
 ---
 title: candles
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # candles

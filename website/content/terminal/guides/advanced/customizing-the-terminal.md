@@ -1,11 +1,11 @@
 ---
 sidebar_position: 4
 title: Customizing the Terminal
-description: To adjust the lay-out and settings of the OpenBB Terminal you can access the settings menu. This menu allows you to tweak how the terminal behaves. Next to that, to enable or disable certain functionalities of the terminal you can use the featflags menu.
-keywords: [settings, featflags, feature flags, lay-out, advanced, customizing, openbb terminal]
+description: To adjust the lay-out and settings of the Finance Analysis you can access the settings menu. This menu allows you to tweak how the terminal behaves. Next to that, to enable or disable certain functionalities of the terminal you can use the featflags menu.
+keywords: [settings, featflags, feature flags, lay-out, advanced, customizing, Finance Analysis]
 ---
 
-To adjust the lay-out and settings of the OpenBB Terminal you can access the `settings` menu. This menu allows you to
+To adjust the lay-out and settings of the Finance Analysis you can access the `settings` menu. This menu allows you to
 tweak how the terminal behaves. This includes the following:
 
 - `dt` adds or removes the datetime from the flair (which is next to the emoji).
@@ -38,6 +38,6 @@ includes the following:
 - `rich` whether to apply a colorful rich terminal (default is yes).
 - `richpanel` whether to apply a colorful rich terminal panel (default is yes).
 - `ion` whether to enable interactive mode of MATPLOTLIB (default is yes).
-- `watermark` whether to include the watermark of OpenBB Terminal in figures (default is yes).
+- `watermark` whether to include the watermark of Finance Analysis in figures (default is yes).
 - `cmdloc` whether the location of the command is displayed in figures (default is yes).
 - `tbhint` whether usage hints are displayed in the bottom toolbar (default is yes).

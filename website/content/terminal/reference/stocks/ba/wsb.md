@@ -1,6 +1,6 @@
 ---
 title: wsb
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # wsb

@@ -1,6 +1,6 @@
 ---
 title: scorr
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # scorr

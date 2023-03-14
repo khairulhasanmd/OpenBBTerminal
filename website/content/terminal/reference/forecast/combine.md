@@ -1,6 +1,6 @@
 ---
 title: combine
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # combine

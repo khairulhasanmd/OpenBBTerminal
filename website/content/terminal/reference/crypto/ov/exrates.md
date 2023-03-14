@@ -1,6 +1,6 @@
 ---
 title: exrates
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # exrates

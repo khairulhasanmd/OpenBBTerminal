@@ -18,11 +18,11 @@ The script file below is titled *stocks_demo.openbb*. This file follows the foll
 
 - <b><span style="color:#EF7D00">Comments</span></b>: any text after a `#` is referred to as a comment. This is used to explain what is happening within the script
 and is not taking into account when running terminal commands.
-- <b><span style="color:#EF7D00">Commands</span></b>: any text **without** a `#` is being ran inside the OpenBB Terminal. E.g. on the second line it says `stocks` thus within the OpenBB Terminal
+- <b><span style="color:#EF7D00">Commands</span></b>: any text **without** a `#` is being ran inside the Finance Analysis. E.g. on the second line it says `stocks` thus within the Finance Analysis
 the script will enter `stocks` and run this for you.
 
 These scripts have a 1-to-1 relationship with how you would normally use the terminal. To get a better understanding of
-how the terminal is used, please see <a href="https://openbb-finance.github.io/OpenBBTerminal/#structure-of-the-openbb-terminal" target="_blank" rel="noreferrer noopener">Structure of the OpenBB Terminal</a>.
+how the terminal is used, please see <a href="https://openbb-finance.github.io/OpenBBTerminal/#structure-of-the-openbb-terminal" target="_blank" rel="noreferrer noopener">Structure of the Finance Analysis</a>.
 
 ```
 # Go into the stocks context
@@ -67,7 +67,7 @@ sentiment
 By going to the main menu as depicted below (accessible with `home`), the <a href="exe" target="_blank" rel="noreferrer noopener">exe</a>
 command can be used. With this command you can run any `.openbb` script. These scripts are located where the application is located inside the routines folder.
 
-![Routine Exe OpenBB Terminal](https://user-images.githubusercontent.com/46355364/174588513-5c52ea20-548a-4c2b-a4c1-6054e2d71786.png)
+![Routine Exe Finance Analysis](https://user-images.githubusercontent.com/46355364/174588513-5c52ea20-548a-4c2b-a4c1-6054e2d71786.png)
 
 Thus, using the earlier mentioned script, we can enter `exe stocks_demo.openbb` which automatically runs all commands within the script file.
 Thus, it will return a candle chart with moving averages, price targets from Analysts, valuations of related companies, the correlation between these companies and the market sentiment.

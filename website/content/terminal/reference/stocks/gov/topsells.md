@@ -1,6 +1,6 @@
 ---
 title: topsells
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # topsells

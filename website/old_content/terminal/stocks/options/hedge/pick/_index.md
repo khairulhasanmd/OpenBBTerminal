@@ -28,5 +28,5 @@ AAPL                                                                     |
 │     rmv           remove an option from the list of options 
 │     sop           show selected options and neutral portfolio weights 
 |
-╰──────────────────────────────────────────────────────OpenBB Terminal ─╯
+╰──────────────────────────────────────────────────────Finance Analysis ─╯
 ```

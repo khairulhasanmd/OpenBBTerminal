@@ -1,6 +1,6 @@
 ---
 title: calendar
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # calendar

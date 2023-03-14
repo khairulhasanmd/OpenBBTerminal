@@ -1,6 +1,6 @@
 ---
 title: save
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # save

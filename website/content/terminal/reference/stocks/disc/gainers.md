@@ -1,6 +1,6 @@
 ---
 title: gainers
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # gainers

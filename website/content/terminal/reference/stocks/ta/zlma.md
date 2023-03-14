@@ -1,6 +1,6 @@
 ---
 title: zlma
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # zlma

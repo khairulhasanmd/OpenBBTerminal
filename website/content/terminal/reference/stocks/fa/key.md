@@ -1,6 +1,6 @@
 ---
 title: key
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # key

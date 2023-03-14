@@ -1,6 +1,6 @@
 ---
 title: deposits
-description: OpenBB Terminal Function
+description: Finance Analysis Function
 ---
 
 # deposits

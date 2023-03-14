@@ -4,7 +4,7 @@ keywords: [economy, macro, index, treasury, fred, market, econdb, index, yield, 
 description: The Economy menu enables you to obtain market overviews, see yield curves of any country and discover sector, industry and country performance. Next to that, the databases of EconDB, FRED and Yahoo Finance can be accessed. All of this can also be further analysed within the Forecasting menu and with Quantitative Techniques.
 ---
 
-The Economy module wraps the functions from the Economy menu of the OpenBB Terminal, and provides the user with more control over their workflow. In a Jupyter Notebook environment, it is quick and easy to get going. To get the most out of these functions, it is highly recommended to acquire API keys for:
+The Economy module wraps the functions from the Economy menu of the Finance Analysis, and provides the user with more control over their workflow. In a Jupyter Notebook environment, it is quick and easy to get going. To get the most out of these functions, it is highly recommended to acquire API keys for:
 
 - [FRED](https://fred.stlouisfed.org)
 - [Quandl/Nasdaq Data Link](https://data.nasdaq.com)
