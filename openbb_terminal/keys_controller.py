@@ -1185,7 +1185,7 @@ class KeysController(BaseController):  # pylint: disable=too-many-public-methods
             help="key",
         )
         if not other_args:
-            console.print("For your Personal Access Token, visit: https://openbb.co/")
+            console.print("For your Personal Access Token, contact us")
             return
 
         if other_args and "-" not in other_args[0][0]:

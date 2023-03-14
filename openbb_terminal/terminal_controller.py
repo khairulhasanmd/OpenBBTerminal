@@ -657,7 +657,7 @@ class TerminalController(BaseController):
             "The fact that our terminal is fully open source allows users to be able to customize "
             "anything they want.\n\n"
             "If you are interested in contributing to the project, please check:\n"
-            "[param]https://github.com/OpenBB-finance/OpenBBTerminal[/param]"
+            "[param][/param]"
         )
         if input("") == "q":
             return
@@ -671,7 +671,7 @@ class TerminalController(BaseController):
             "2022 Oct 18, 22:33 (🦋) / $ [param]support CMD[/param]\n\n"
             "which should open a form in your browser where you can report the bug in said 'CMD'.\n\n"
             "If you want to know more, or have any further question. Please join us on Discord:\n"
-            "[param]https://openbb.co/discord[/param]"
+            "[param][/param]"
         )
 
     def call_exe(self, other_args: List[str]):

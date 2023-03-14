@@ -93,7 +93,7 @@ class Operation:
         import webbrowser
 
         trail = "/".join(self._trail.split(".")).replace("_chart", "")
-        url = f"https://docs.openbb.co/sdk/reference/{trail}"
+        url = f"{trail}"
         webbrowser.open(url)
 
 
@@ -139,7 +139,7 @@ class Category:
         import webbrowser
 
         trail = "/".join(self._location_path.split("."))
-        url = f"https://docs.openbb.co/sdk/reference/{trail}"
+        url = f"{trail}"
         webbrowser.open(url)
 
 

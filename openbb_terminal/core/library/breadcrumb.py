@@ -139,7 +139,7 @@ class Breadcrumb:
         import webbrowser
 
         trail = self._trail
-        url = "https://docs.openbb.co/sdk/reference/"
+        url = ""
         url += "/".join(trail.split("."))
         webbrowser.open(url)
 

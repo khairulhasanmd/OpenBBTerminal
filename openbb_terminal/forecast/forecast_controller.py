@@ -19,11 +19,10 @@ try:
             "Follow instructions on creating a new conda environment with the latest "
             f"Darts version ({darts_latest}):"
         )
-        print("https://docs.openbb.co/terminal/quickstart/installation")
+        print(" ")
 except ModuleNotFoundError:
     raise ModuleNotFoundError(
         "Please install the forecast version of the terminal. Instructions can be found "
-        "under the python tab: https://docs.openbb.co/terminal/quickstart/installation"
     )
 
 try:
@@ -42,7 +41,6 @@ except ModuleNotFoundError:
         "poetry install -E forecast \n"
         "\n"
         "If you are not using poetry, please install whisper model. Instructions can be found here: \n"
-        "https://github.com/openai/whisper \n"
         "Please install the transformers library with the following command: \n"
         "pip install transformers \n"
     )

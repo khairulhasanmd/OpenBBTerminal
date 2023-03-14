@@ -252,7 +252,7 @@ class SettingsController(BaseController):
         ns_parser = self.parse_simple_args(parser, other_args)
         if ns_parser:
             console.print(
-                "\n1. Play with the terminal coloring embedded in our website https://openbb.co/customize\n"
+                "\n1. Play with the terminal"
             )
             console.print("2. Once happy, click 'Download Theme'\n")
             console.print(
