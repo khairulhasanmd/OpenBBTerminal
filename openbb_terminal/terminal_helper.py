@@ -51,28 +51,27 @@ def print_goodbye():
     # "...when offered a flight to the moon, nobody asks about what seat."
 
     console.print(
-        "[param]The Finance Analysis is the result of a strong community building an "
-        "investment research platform for everyone, anywhere.[/param]\n"
+        "[param]The Finance Analysis is a investment research platform for everyone.[/param]\n"
     )
 
-    console.print(
-        "We are always eager to welcome new contributors and you can find our open jobs here:\n"
-        "[cmds][/cmds]\n"
-    )
+    # console.print(
+    #     "We are always eager to welcome new contributors and you can find our open jobs here:\n"
+    #     "[cmds][/cmds]\n"
+    # )
 
-    console.print(
-        "Finance Analysis"
-    )
+    # console.print(
+    #     "Finance Analysis"
+    # )
 
-    console.print(
-        "[bold]Fill in our 2-minute survey so we better understand how we can improve the Finance Analysis "
-        "at [cmds][/cmds][/bold]\n"
-    )
+    # console.print(
+    #     "[bold]Fill in our 2-minute survey so we better understand how we can improve the Finance Analysis "
+    #     "at [cmds][/cmds][/bold]\n"
+    # )
 
-    console.print(
-        "[param]In the meantime access investment research from your chatting platform using the OpenBB Bot[/param]\n"
-        "Try it today, for FREE: [cmds][/cmds]\n"
-    )
+    # console.print(
+    #     "[param]In the meantime access investment research from your chatting platform using the OpenBB Bot[/param]\n"
+    #     "Try it today, for FREE: [cmds][/cmds]\n"
+    # )
     logger.info("END")
 
 
