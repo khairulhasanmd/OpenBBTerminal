@@ -276,27 +276,27 @@ def check_for_updates() -> None:
 
         if check_valid_versions(latest_version, current_version):
             if current_version == latest_version:
-                console.print("[green]You are using the latest stable version[/green]")
+                #console.print("[green]You are using the latest stable version[/green]")
             else:
-                console.print(
-                    "[yellow]You are not using the latest stable version[/yellow]"
-                )
+                #console.print(
+                #    "[yellow]You are not using the latest stable version[/yellow]"
+                #)
                 if current_version < latest_version:
-                    console.print(
-                        "[yellow]Check for updates[/yellow]"
-                    )
+                    #console.print(
+                    #    "[yellow]Check for updates[/yellow]"
+                    #)
 
                 else:
-                    console.print(
-                        "[yellow]You are using an unreleased version[/yellow]"
-                    )
+                    #console.print(
+                    #    "[yellow]You are using an unreleased version[/yellow]"
+                    #)
 
         else:
-            console.print("[red]You are using an unrecognized version.[/red]")
+            #console.print("[red]You are using an unrecognized version.[/red]")
     else:
         console.print(
-            "[yellow]Unable to check for updates... "
-            + "Check your internet connection and try again...[/yellow]"
+            #"[yellow]Unable to check for updates... "
+            #+ "Check your internet connection and try again...[/yellow]"
         )
     console.print("\n")
 
