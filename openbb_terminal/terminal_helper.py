@@ -43,7 +43,7 @@ def print_goodbye():
     # "An informed ape, is a strong ape."
     # "Remember that stonks only go up."
     # "Diamond hands."
-    # "Apes together strong."
+    # "Apes together  strong."
     # "This is our way."
     # "Keep the spacesuit ape, we haven't reached the moon yet."
     # "I am not a cat. I'm an ape."
