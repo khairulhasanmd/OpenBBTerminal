@@ -115,7 +115,7 @@ class StocksController(StockBaseController):
         mt.add_cmd("codes")
         mt.add_cmd("news")
         mt.add_raw("\n")
-        mt.add_menu("th")
+        # mt.add_menu("th")
         mt.add_menu("options")
         mt.add_menu("disc")
         mt.add_menu("dps")
