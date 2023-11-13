@@ -274,27 +274,27 @@ def check_for_updates() -> None:
         latest_version = version.parse(latest_tag_name)
         current_version = version.parse(obbff.VERSION)
 
-        if check_valid_versions(latest_version, current_version):
-            if current_version == latest_version:
+        #if check_valid_versions(latest_version, current_version):
+        #    if current_version == latest_version:
                 #console.print("[green]You are using the latest stable version[/green]")
-            else:
+        #    else:
                 #console.print(
                 #    "[yellow]You are not using the latest stable version[/yellow]"
                 #)
-                if current_version < latest_version:
+        #        if current_version < latest_version:
                     #console.print(
                     #    "[yellow]Check for updates[/yellow]"
                     #)
 
-                else:
+        #        else:
                     #console.print(
                     #    "[yellow]You are using an unreleased version[/yellow]"
                     #)
 
-        else:
+        #else:
             #console.print("[red]You are using an unrecognized version.[/red]")
     else:
-        console.print(
+        console.print(" "
             #"[yellow]Unable to check for updates... "
             #+ "Check your internet connection and try again...[/yellow]"
         )
