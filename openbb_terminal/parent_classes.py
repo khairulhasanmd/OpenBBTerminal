@@ -969,10 +969,6 @@ class BaseController(metaclass=ABCMeta):
                                             '<style bg="ansiblack" fg="ansiwhite">[h]</style> help menu    '
                                             '<style bg="ansiblack" fg="ansiwhite">[q]</style> return to previous menu'
                                             '    <style bg="ansiblack" fg="ansiwhite">[e]</style> exit terminal    '
-                                            '<style bg="ansiblack" fg="ansiwhite">[cmd -h]</style> '
-                                            "see usage and available options    "
-                                            f'<style bg="ansiblack" fg="ansiwhite">[about (cmd/menu)]</style> '
-                                            f"{self.path[-1].capitalize()} (cmd/menu) Documentation"
                                         ),
                                         style=Style.from_dict(
                                             {
@@ -998,9 +994,6 @@ class BaseController(metaclass=ABCMeta):
                                     '<style bg="ansiblack" fg="ansiwhite">[q]</style> return to previous menu    '
                                     '<style bg="ansiblack" fg="ansiwhite">[e]</style> exit terminal    '
                                     '<style bg="ansiblack" fg="ansiwhite">[cmd -h]</style> '
-                                    "see usage and available options    "
-                                    f'<style bg="ansiblack" fg="ansiwhite">[about (cmd/menu)]</style> '
-                                    f"{self.path[-1].capitalize()} (cmd/menu) Documentation"
                                 ),
                                 style=Style.from_dict(
                                     {
