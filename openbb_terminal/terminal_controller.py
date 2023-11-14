@@ -943,9 +943,6 @@ def terminal(jobs_cmds: Optional[List[str]] = None, test_mode=False):
                                         '<style bg="ansiblack" fg="ansiwhite">[h]</style> help menu    '
                                         '<style bg="ansiblack" fg="ansiwhite">[q]</style> return to previous menu'
                                         '    <style bg="ansiblack" fg="ansiwhite">[e]</style> exit terminal    '
-                                        '<style bg="ansiblack" fg="ansiwhite">[cmd -h]</style> '
-                                        "see usage and available options    "
-                                        '<style bg="ansiblack" fg="ansiwhite">[about (cmd/menu)]</style> '
                                     ),
                                     style=Style.from_dict(
                                         {
@@ -970,9 +967,6 @@ def terminal(jobs_cmds: Optional[List[str]] = None, test_mode=False):
                                 '<style bg="ansiblack" fg="ansiwhite">[h]</style> help menu    '
                                 '<style bg="ansiblack" fg="ansiwhite">[q]</style> return to previous menu    '
                                 '<style bg="ansiblack" fg="ansiwhite">[e]</style> exit terminal    '
-                                '<style bg="ansiblack" fg="ansiwhite">[cmd -h]</style> '
-                                "see usage and available options    "
-                                '<style bg="ansiblack" fg="ansiwhite">[about (cmd/menu)]</style> '
                             ),
                             style=Style.from_dict(
                                 {
